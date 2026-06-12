@@ -46,4 +46,17 @@ describe('buildHashnodePayload (update)', () => {
     expect(input.coverImageOptions).toBeUndefined();
     expect(JSON.stringify(input)).not.toContain('coverImageOptions');
   });
+
+  it('omits originalArticleURL on update (create-only field)', () => {
+    const { input } = buildHashnodePayload(post, 'lava-leap', 'https://example.com', 'pub123', 'post456');
+    expect(input.originalArticleURL).toBeUndefined();
+  });
+});
+
+describe('buildHashnodePayload tag dedup', () => {
+  it('dedupes tags that collide after slugification', () => {
+    const p = { data: { title: 'X', description: 'Y', tags: ['game-dev', 'Game Dev'] }, content: '' };
+    const { input } = buildHashnodePayload(p, 'x', 'https://example.com', 'pub123');
+    expect(input.tags).toEqual([{ slug: 'game-dev', name: 'game-dev' }]);
+  });
 });
