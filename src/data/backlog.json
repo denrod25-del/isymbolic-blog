@@ -1,0 +1,32 @@
+{
+  "projects": [
+    { "slug": "lava-leap", "name": "Lava Leap", "blurb": "Endless vertical climber (Phaser 3 + TypeScript) with parametric-reachability procedural levels and rising lava.", "repo": "https://github.com/denrod25-del/lava-leap", "live": "", "status": "todo" },
+    { "slug": "symstudio", "name": "SymStudio", "blurb": "OBS Studio forked, built from source on Windows, and rebranded into a portable streaming app with installer, custom theme, and starter scenes.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "clawports", "name": "ClawPorts", "blurb": "Neon Electron port/process manager for Windows — see what's listening and kill it.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "space-invaders", "name": "Space Invaders", "blurb": "Faithful Space Invaders clone in Unity — lockstep swarm, bunkers, UFO, persistent high score.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "pipe-knight", "name": "Pipe Knight", "blurb": "2D metroidvania prototype in Unity starring a plumber-knight.", "repo": "", "live": "", "status": "later" },
+    { "slug": "skyhop", "name": "Skyhop", "blurb": "Unity 3D platformer prototype with A Short Hike-style movement, built through Unity MCP.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "book-library", "name": "Book Library RAG", "blurb": "Local GPU RAG over 163 books — browser chat with cited answers, fully offline.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "browser-video-editor", "name": "Browser Video Editor", "blurb": "Client-side React video editor — trim, timeline, text overlays, WebCodecs MP4 export with audio.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "computer-fun", "name": "Computer Fun 1984", "blurb": "All 20 BASIC programs from a 1984 Marvel type-in book, revived for browser and Python with a retro menu.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "atlases", "name": "Atlases", "blurb": "16-atlas interactive learning site.", "repo": "https://github.com/denrod25-del/atlases", "live": "https://atlases.vercel.app", "status": "todo" },
+    { "slug": "permit-lead-finder", "name": "Permit Lead Finder", "blurb": "Python tool that scores public building-permit exports into ranked sales leads.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "ewg-tapwater", "name": "EWG Tap Water Reports", "blurb": "CLI that scrapes EWG tap-water data into SQLite and homeowner-friendly reports.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "copper-risk-pbc", "name": "Copper Risk PBC", "blurb": "Copper-corrosion risk scoring for county water with a PHREEQC-validated chemistry engine.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "nemoclaw", "name": "NemoClaw on WSL", "blurb": "NVIDIA's sandboxed-agent stack running fully local on WSL + Ollama.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "pdf-to-podcast", "name": "PDF to Podcast, Locally", "blurb": "NVIDIA's pdf-to-podcast rewired for a local stack — Claude LLM tiers + Kokoro TTS, no cloud keys.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "nineveh-aqueduct", "name": "Nineveh Aqueduct", "blurb": "Photoreal Blender reconstruction of Sennacherib's 690 BCE aqueduct with a real Mantaflow fluid sim.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "atlantis", "name": "Atlantis", "blurb": "Underwater Blender city scene — sunset, turntable, and a lot of volumetrics.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "blender-planets", "name": "Blender Planets Skill", "blurb": "Reusable Claude skill that builds photoreal planets from real NASA elevation and color maps.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "aseprite-build", "name": "Building Aseprite", "blurb": "Aseprite built from source on Windows — VS2022, prebuilt Skia, and one CMake version gotcha.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "libresprite-build", "name": "Building LibreSprite", "blurb": "The open Aseprite fork built via MSYS2 ucrt64 after the README's path turned out to be dead.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "moneyprinterturbo", "name": "MoneyPrinterTurbo, Locally", "blurb": "AI short-video generator running end-to-end on local Ollama + Pexels.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "scrapling-mcp", "name": "Scrapling as an MCP Server", "blurb": "Adaptive web scraper wired into Claude Code as a global MCP server with 10 live tools.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "ai-security-scanners", "name": "Three AI Security Scanners", "blurb": "garak, AI-Infra-Guard, and vigolium set up side by side — model probing vs infra scanning vs web DAST.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "osiris-water", "name": "OSIRIS Water-Quality Layer", "blurb": "OSINT dashboard extended with a live US water-quality layer — USGS sensors + EPA violations.", "repo": "https://github.com/denrod25-del/osiris", "live": "", "status": "todo" },
+    { "slug": "icloud-transfer", "name": "Moving 20,724 PDFs out of iCloud", "blurb": "A resumable PowerShell pipeline that migrated 253 GB with zero missing files.", "repo": "", "live": "", "status": "todo" },
+    { "slug": "fieldservice-atlas", "name": "Atlas Field Service", "blurb": "open-fieldservice reskinned ServiceTitan-style with a new dispatch board.", "repo": "", "live": "", "status": "later" },
+    { "slug": "codetype", "name": "CodeType", "blurb": "Code-focused typing trainer.", "repo": "", "live": "", "status": "later" },
+    { "slug": "clawmonitor", "name": "ClawMonitor", "blurb": "Always-on-top synthwave system-monitor bar (in design).", "repo": "", "live": "", "status": "later" }
+  ]
+}

@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getPosts } from '../lib/posts';
+import backlog from '../data/backlog.json';
+
+const posts = await getPosts();
+const postFor = (slug: string) => posts.find((p) => p.data.project === slug);
+const projects = backlog.projects.filter((p) => p.status !== 'later');
+---
+
+<BaseLayout title="Projects" description="Everything built with Claude so far.">
+  <h1>Projects</h1>
+  <p class="meta">{projects.length} projects and counting — each gets its own post.</p>
+  <div class="grid">
+    {projects.map((proj) => {
+      const post = postFor(proj.slug);
+      return (
+        <article class="card">
+          <h3>{post ? <a href={`/blog/${post.id}/`}>{proj.name}</a> : proj.name}</h3>
+          <p>{proj.blurb}</p>
+          <p class="meta">
+            {post && <a href={`/blog/${post.id}/`}>Read the story →</a>}
+            {!post && <span>Post coming soon</span>}
+            {proj.repo && <> · <a href={proj.repo}>GitHub</a></>}
+            {proj.live && <> · <a href={proj.live}>Live</a></>}
+          </p>
+        </article>
+      );
+    })}
+  </div>
+</BaseLayout>

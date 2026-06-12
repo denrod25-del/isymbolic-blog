@@ -1,3 +1,19 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { getPosts } from '../lib/posts';
+
+const posts = (await getPosts()).slice(0, 6);
 ---
-<html lang="en"><body><h1>iSymbolic</h1></body></html>
+
+<BaseLayout>
+  <h1>Built with Claude.</h1>
+  <p>
+    Games, 3D art, desktop tools, and local AI stacks — one hobbyist, one AI pair
+    programmer, and the gotchas that made each project actually ship.
+    Browse the <a href="/projects/">full project list</a> or start with the latest posts.
+  </p>
+  <h2>Latest posts</h2>
+  {posts.map((post) => <PostCard post={post} />)}
+  {posts.length === 0 && <p class="meta">First posts landing soon.</p>}
+</BaseLayout>
