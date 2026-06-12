@@ -7,7 +7,8 @@ const blog = defineCollection({
     title: z.string(),
     description: z.string(),
     pubDate: z.coerce.date(),
-    tags: z.array(z.string()).default([]),
+    // url-safe slugs only — they become /tags/<tag>/ paths and dev.to tag names
+    tags: z.array(z.string().regex(/^[a-z0-9-]+$/)).default([]),
     project: z.string(),
     heroImage: z.string().optional(),
     draft: z.boolean().default(true),
