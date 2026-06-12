@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://isymbolic-blog.netlify.app/sitemap-index.xml
