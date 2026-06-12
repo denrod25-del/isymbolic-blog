@@ -18,6 +18,11 @@ if (!slug) {
   process.exit(1);
 }
 
+if (!/^[a-z0-9-]+$/.test(slug)) {
+  console.error(`invalid slug "${slug}" — must be lowercase letters, digits, hyphens only`);
+  process.exit(1);
+}
+
 const file = path.join('src', 'content', 'blog', `${slug}.md`);
 const report = [];
 const run = (cmd) => execSync(cmd, { stdio: 'inherit' });
@@ -49,7 +54,7 @@ if (dryRun) {
 }
 
 // 3. Cross-posts (each platform isolated; one failure doesn't block others)
-const post = parsePost(raw);
+const post = parsePost(raw); // pre-cross-post snapshot: drives create-vs-update; raw accumulates ids separately
 let wroteIds = false;
 
 if (process.env.DEV_API_KEY) {
