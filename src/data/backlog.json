@@ -1,6 +1,6 @@
 {
   "projects": [
-    { "slug": "lava-leap", "name": "Lava Leap", "blurb": "Endless vertical climber (Phaser 3 + TypeScript) with parametric-reachability procedural levels and rising lava.", "repo": "https://github.com/denrod25-del/lava-leap", "live": "", "status": "todo" },
+    { "slug": "lava-leap", "name": "Lava Leap", "blurb": "Endless vertical climber (Phaser 3 + TypeScript) with parametric-reachability procedural levels and rising lava.", "repo": "https://github.com/denrod25-del/lava-leap", "live": "", "status": "drafted" },
     { "slug": "symstudio", "name": "SymStudio", "blurb": "OBS Studio forked, built from source on Windows, and rebranded into a portable streaming app with installer, custom theme, and starter scenes.", "repo": "", "live": "", "status": "todo" },
     { "slug": "clawports", "name": "ClawPorts", "blurb": "Neon Electron port/process manager for Windows — see what's listening and kill it.", "repo": "", "live": "", "status": "todo" },
     { "slug": "space-invaders", "name": "Space Invaders", "blurb": "Faithful Space Invaders clone in Unity — lockstep swarm, bunkers, UFO, persistent high score.", "repo": "", "live": "", "status": "todo" },
