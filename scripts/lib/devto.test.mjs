@@ -37,4 +37,17 @@ describe('buildDevtoPayload', () => {
     expect(article.main_image).toBe('https://example.com/images/lava-leap/hero.png');
     expect(article.body_markdown).toContain('https://example.com/images/lava-leap/shot.png');
   });
+
+  it('dedupes tags that collide after sanitization', () => {
+    const p = { data: { ...post.data, tags: ['game-dev', 'gamedev', 'unity', 'csharp', 'dotnet'] }, content: '' };
+    const { article } = buildDevtoPayload(p, 's', 'https://example.com');
+    expect(article.tags).toEqual(['gamedev', 'unity', 'csharp', 'dotnet']);
+  });
+
+  it('omits main_image when there is no heroImage', () => {
+    const p = { data: { title: 'X', description: 'Y', tags: [] }, content: 'body' };
+    const { article } = buildDevtoPayload(p, 'x', 'https://example.com');
+    expect(article.main_image).toBeUndefined();
+    expect(JSON.stringify(article)).not.toContain('main_image');
+  });
 });

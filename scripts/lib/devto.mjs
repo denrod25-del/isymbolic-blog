@@ -1,4 +1,7 @@
-/** Rewrite root-relative /images/ markdown references to absolute site URLs. */
+/**
+ * Rewrite root-relative /images/ markdown references to absolute site URLs.
+ * Plain string replacement — also rewrites matches inside fenced code blocks; acceptable for this pipeline.
+ */
 export function rewriteRelativeImages(markdown, siteUrl) {
   return markdown.replaceAll('](/images/', `](${siteUrl}/images/`);
 }
@@ -15,6 +18,7 @@ export function buildDevtoPayload(post, slug, siteUrl) {
       tags: (post.data.tags ?? [])
         .map((t) => t.toLowerCase().replace(/[^a-z0-9]/g, ''))
         .filter(Boolean)
+        .filter((t, i, arr) => arr.indexOf(t) === i)
         .slice(0, 4),
       main_image: post.data.heroImage ? `${siteUrl}${post.data.heroImage}` : undefined,
     },
@@ -34,7 +38,10 @@ export async function publishToDevto(payload, apiKey, existingId) {
     headers: { 'api-key': apiKey, 'content-type': 'application/json' },
     body: JSON.stringify(payload),
   });
-  if (!res.ok) throw new Error(`dev.to ${res.status}: ${await res.text()}`);
+  if (!res.ok) {
+    const body = (await res.text()).slice(0, 300);
+    throw new Error(`dev.to ${res.status}: ${body}`);
+  }
   const json = await res.json();
   return { id: json.id, url: json.url };
 }
