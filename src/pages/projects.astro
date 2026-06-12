@@ -3,9 +3,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getPosts } from '../lib/posts';
 import backlog from '../data/backlog.json';
 
+interface Project {
+  slug: string;
+  name: string;
+  blurb: string;
+  repo: string;
+  live: string;
+  status: 'todo' | 'later' | 'drafted' | 'published';
+}
+
 const posts = await getPosts();
 const postFor = (slug: string) => posts.find((p) => p.data.project === slug);
-const projects = backlog.projects.filter((p) => p.status !== 'later');
+const projects = (backlog.projects as unknown as Project[]).filter((p) => p.status !== 'later');
 ---
 
 <BaseLayout title="Projects" description="Everything built with Claude so far.">
@@ -19,10 +28,9 @@ const projects = backlog.projects.filter((p) => p.status !== 'later');
           <h3>{post ? <a href={`/blog/${post.id}/`}>{proj.name}</a> : proj.name}</h3>
           <p>{proj.blurb}</p>
           <p class="meta">
-            {post && <a href={`/blog/${post.id}/`}>Read the story →</a>}
-            {!post && <span>Post coming soon</span>}
-            {proj.repo && <> · <a href={proj.repo}>GitHub</a></>}
-            {proj.live && <> · <a href={proj.live}>Live</a></>}
+            {post ? <span>Story published</span> : <span>Post coming soon</span>}
+            {proj.repo && <> · <a href={proj.repo} target="_blank" rel="noopener noreferrer">GitHub</a></>}
+            {proj.live && <> · <a href={proj.live} target="_blank" rel="noopener noreferrer">Live</a></>}
           </p>
         </article>
       );
