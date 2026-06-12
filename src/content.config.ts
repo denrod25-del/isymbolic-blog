@@ -11,6 +11,7 @@ const blog = defineCollection({
     project: z.string(),
     heroImage: z.string().optional(),
     draft: z.boolean().default(true),
+    // dev.to uses integer article ids; Hashnode uses UUID strings
     devtoId: z.number().optional(),
     hashnodeId: z.string().optional(),
   }),

@@ -1,7 +1,8 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import { SITE_URL } from './scripts/lib/config.mjs';
 
 export default defineConfig({
-  site: 'https://isymbolic-blog.netlify.app',
+  site: SITE_URL,
   integrations: [sitemap()],
 });
