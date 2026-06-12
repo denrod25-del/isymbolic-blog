@@ -1,0 +1,50 @@
+---
+import { SITE } from '../lib/site';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  ogImage?: string;
+  canonical?: string;
+}
+
+const { title, description = SITE.description, ogImage, canonical } = Astro.props;
+const pageTitle = title ? `${title} — ${SITE.title}` : `${SITE.title} — built with Claude`;
+const canonicalUrl = canonical ?? new URL(Astro.url.pathname, SITE.url).href;
+const ogImageUrl = ogImage ? new URL(ogImage, SITE.url).href : undefined;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title={SITE.title} href="/rss.xml" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:site_name" content={SITE.title} />
+    {ogImageUrl && <meta property="og:image" content={ogImageUrl} />}
+    <meta name="twitter:card" content={ogImageUrl ? 'summary_large_image' : 'summary'} />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="/">i<span>Symbolic</span></a>
+      <nav>
+        <a href="/blog/">Blog</a>
+        <a href="/projects/">Projects</a>
+        <a href="/about/">About</a>
+        <a href="/rss.xml">RSS</a>
+      </nav>
+    </header>
+    <main><slot /></main>
+    <footer class="site-footer">
+      <p>© {new Date().getFullYear()} iSymbolic. Every project here was pair-built with Claude.</p>
+    </footer>
+  </body>
+</html>
