@@ -14,9 +14,9 @@ Lava Leap is an endless vertical climber: you scale procedurally generated platf
 
 The core loop is simple to describe and hard to put down. You run, jump, double jump, wall slide, wall jump, and air dash your way up a tower of platforms that never ends. Some platforms crumble under your feet, some move, and the lava below accelerates the longer you survive. Die, see your score, press Space, go again. Your best run persists in localStorage.
 
-Around that loop, version 0.2.0 added the things that make a small game feel like a finished one: named zones with their own palettes and lava pacing (the Volcanic Throat kicks in at height 600, with sub-zones like Magma Vault and Obsidian Crown), hand-authored set-piece chunks injected into the random stream, achievements, a daily challenge seed, a cosmetics shop that spends banked coins, procedural chiptune music, eight synthesized sound effects, pause and settings menus, and a crash-recovery overlay so an unhandled error never strands you on a blank canvas.
+Around that loop, version 0.2.0 added the things that make a small game feel like a finished one: named zones with their own palettes and lava pacing (the Volcanic Throat's sub-zones turn over roughly every 1000 height units — Magma Vault at 0, The Forge at 1000, Ashfall at 2000, and Obsidian Crown at 3000 — each raising lava speed and biasing toward harder platform types), hand-authored set-piece chunks injected into the random stream, achievements, a daily challenge seed, a cosmetics shop that spends banked coins, procedural chiptune music, eight synthesized sound effects, pause and settings menus, and a crash-recovery overlay so an unhandled error never strands you on a blank canvas.
 
-The stack is Phaser 3, TypeScript, and Vite, with Vitest for unit tests and Playwright for end-to-end smoke tests. The pixel art player and tiles were generated with PixelLab. I don't have a promotional screenshot worth showing yet — clone the [repo](https://github.com/denrod25-del/lava-leap) and run `npm run dev` to see it move, which is honestly the better demo for a game about momentum.
+The stack is Phaser 3, TypeScript, and Vite, with Vitest for unit tests and Playwright for end-to-end smoke tests. The pixel art player and tiles were generated with PixelLab. Clone the [repo](https://github.com/denrod25-del/lava-leap) and run `npm run dev` to see it move — a game about momentum is better experienced than screenshotted.
 
 ## How it was built
 
@@ -26,11 +26,11 @@ The architectural decision I care most about is **parametric reachability**: eve
 
 The second load-bearing piece is a typed **event spine**: a small, framework-free event emitter in `src/core/events.ts`. Gameplay code emits events (platform landed, coin collected, death) and everything else subscribes — achievements, run analytics, the audio director, score popups. That's what made v2's feature pile tractable: the achievements system never touches the player class. One naming landmine: the field on the game scene is `gameEvents`, because `events` already exists on `Phaser.Scene` and shadowing it breaks the scene lifecycle.
 
-The juice pass came last and mattered more than I expected: squash-and-stretch on landings, dust particles, screen shake, floating score popups, drifting embers, and a slow-motion beat on death. Even the audio is code — `tools/gen-music.mjs` synthesizes the chiptune loops from scratch, so the repo has no licensed asset files at all.
+The juice pass came last and mattered more than I expected: squash-and-stretch on landings, dust particles, screen shake, floating score popups, drifting embers, and a slow-motion beat on death. Even the audio is code — `tools/gen-music.mjs` synthesizes the chiptune loops from scratch, so the repo contains no purchased third-party asset packs — sprites are PixelLab-generated and all audio is regenerable from the synthesis scripts.
 
 ## The gotchas
 
-Three real ones, each of which cost an afternoon or would have cost someone else one.
+Three real ones, each of which cost real debugging time.
 
 **A bare `tsc` in the build script silently shadowed our sources.** The build ran `tsc && vite build`, and `tsc` emitted compiled `.js` files next to their `.ts` sources. Vite resolves `.js` before `.ts`, so the dev server started serving stale compiled output while we edited the TypeScript — changes just stopped appearing. The fix is `"noEmit": true` in `tsconfig.json` (the build only needs `tsc` as a type-check; Vite does the bundling). The rule we took away: never let stray `.js` files sit in `src/`.
 
