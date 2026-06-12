@@ -4,6 +4,7 @@ description: "How a Phaser 3 endless vertical climber went from idea to public r
 pubDate: 2026-06-12
 tags: [gamedev, phaser, typescript, ai]
 project: lava-leap
+heroImage: /images/lava-leap/hero.png
 draft: true
 ---
 
