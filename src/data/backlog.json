@@ -4,7 +4,7 @@
     { "slug": "symstudio", "name": "SymStudio", "blurb": "OBS Studio forked, built from source on Windows, and rebranded into a portable streaming app with installer, custom theme, and starter scenes.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "clawports", "name": "ClawPorts", "blurb": "Neon Electron port/process manager for Windows — see what's listening and kill it.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "space-invaders", "name": "Space Invaders", "blurb": "Faithful Space Invaders clone in Unity — lockstep swarm, bunkers, UFO, persistent high score.", "repo": "", "live": "", "status": "drafted" },
-    { "slug": "pipe-knight", "name": "Pipe Knight", "blurb": "2D metroidvania prototype in Unity starring a plumber-knight.", "repo": "", "live": "", "status": "later" },
+    { "slug": "pipe-knight", "name": "Pipe Knight", "blurb": "2D metroidvania prototype in Unity starring a plumber-knight.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "skyhop", "name": "Skyhop", "blurb": "Unity 3D platformer prototype with A Short Hike-style movement, built through Unity MCP.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "book-library", "name": "Book Library RAG", "blurb": "Local GPU RAG over 250 books — browser chat with cited answers, fully offline.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "browser-video-editor", "name": "Browser Video Editor", "blurb": "Client-side React video editor — trim, timeline, text overlays, WebCodecs MP4 export with audio.", "repo": "", "live": "", "status": "drafted" },
@@ -25,8 +25,12 @@
     { "slug": "ai-security-scanners", "name": "Three AI Security Scanners", "blurb": "garak, AI-Infra-Guard, and vigolium set up side by side — model probing vs infra scanning vs web DAST.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "osiris-water", "name": "OSIRIS Water-Quality Layer", "blurb": "OSINT dashboard extended with a live US water-quality layer — USGS sensors + EPA violations.", "repo": "https://github.com/denrod25-del/osiris", "live": "", "status": "drafted" },
     { "slug": "icloud-transfer", "name": "Moving 20,724 PDFs out of iCloud", "blurb": "A resumable PowerShell pipeline that migrated 253 GB with zero missing files.", "repo": "", "live": "", "status": "drafted" },
-    { "slug": "fieldservice-atlas", "name": "Atlas Field Service", "blurb": "open-fieldservice reskinned ServiceTitan-style with a new dispatch board.", "repo": "", "live": "", "status": "later" },
-    { "slug": "codetype", "name": "CodeType", "blurb": "Code-focused typing trainer.", "repo": "", "live": "", "status": "later" },
-    { "slug": "clawmonitor", "name": "ClawMonitor", "blurb": "Always-on-top synthwave system-monitor bar (in design).", "repo": "", "live": "", "status": "later" }
+    { "slug": "fieldservice-atlas", "name": "Atlas Field Service", "blurb": "open-fieldservice reskinned ServiceTitan-style with a new dispatch board.", "repo": "", "live": "", "status": "drafted" },
+    { "slug": "codetype", "name": "CodeType", "blurb": "Code-focused typing trainer for brackets, symbols, and indentation.", "repo": "", "live": "", "status": "drafted" },
+    { "slug": "clawmonitor", "name": "ClawMonitor", "blurb": "Always-on-top synthwave system-monitor bar (Electron) — CPU/RAM/GPU plus dev-stack health.", "repo": "https://github.com/denrod25-del/ClawMonitor", "live": "", "status": "drafted" },
+    { "slug": "scribd-dl", "name": "Scribd Downloader", "blurb": "Resumable Playwright tool that archived all 291 of my own saved Scribd documents.", "repo": "", "live": "", "status": "drafted" },
+    { "slug": "trading-bot", "name": "Trading Bot", "blurb": "Automated crypto trading bot built around a safety gate and a full decision audit trail (paper-trading default).", "repo": "", "live": "", "status": "drafted" },
+    { "slug": "claw-world", "name": "Claw World", "blurb": "Live QBCore FiveM roleplay server and its companion website.", "repo": "", "live": "", "status": "drafted" },
+    { "slug": "symbolic", "name": "Symbolic", "blurb": "A working web search engine on Next.js 16 — Brave-powered results, advertiser portal, and admin review queue.", "repo": "", "live": "", "status": "drafted" }
   ]
 }
