@@ -41,8 +41,10 @@ h3 { font-size: 1.3rem; }
   max-width: var(--max-w); margin: 0 auto; padding: 1.6rem 1.25rem;
   border-bottom: 1px solid var(--text);
 }
-.site-header .logo { font-family: var(--serif); font-size: 1.5rem; font-weight: 700; color: var(--text); letter-spacing: -0.01em; }
-.site-header .logo span { color: var(--accent); }
+.site-header .logo { display: inline-flex; align-items: center; gap: 0.6rem; font-family: var(--serif); font-size: 1.5rem; font-weight: 700; color: var(--text); letter-spacing: -0.01em; }
+.site-header .logo:hover { text-decoration: none; }
+.site-header .logo .logo-mark { width: 36px; height: 36px; display: block; }
+.site-header .logo .logo-word { color: var(--text); }
 .site-header nav { display: flex; gap: 1.5rem; }
 .site-header nav a { color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.72rem; font-weight: 600; }
 .site-header nav a:hover { color: var(--accent); text-decoration: none; }
