@@ -12,6 +12,7 @@ tags:
 project: lava-leap
 heroImage: /images/lava-leap/hero.png
 draft: false
+devtoId: 3887219
 ---
 
 Lava Leap is an endless vertical climber: you scale procedurally generated platforms while lava rises from below, and your score is your height plus the coins you grab on the way up. I built it with Claude as a pair programmer over two release cycles, and it's now public on [GitHub](https://github.com/denrod25-del/lava-leap) at v0.2.0.
