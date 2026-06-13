@@ -1,11 +1,17 @@
 ---
-title: "Lava Leap: Shipping an Endless Climber with an AI Pair Programmer"
-description: "How a Phaser 3 endless vertical climber went from idea to public release — procedural levels that are provably beatable, chiptune juice, and 53 tests."
-pubDate: 2026-06-12
-tags: [gamedev, phaser, typescript, ai]
+title: 'Lava Leap: Shipping an Endless Climber with an AI Pair Programmer'
+description: >-
+  How a Phaser 3 endless vertical climber went from idea to public release —
+  procedural levels that are provably beatable, chiptune juice, and 53 tests.
+pubDate: 2026-06-12T00:00:00.000Z
+tags:
+  - gamedev
+  - phaser
+  - typescript
+  - ai
 project: lava-leap
 heroImage: /images/lava-leap/hero.png
-draft: true
+draft: false
 ---
 
 Lava Leap is an endless vertical climber: you scale procedurally generated platforms while lava rises from below, and your score is your height plus the coins you grab on the way up. I built it with Claude as a pair programmer over two release cycles, and it's now public on [GitHub](https://github.com/denrod25-del/lava-leap) at v0.2.0.
