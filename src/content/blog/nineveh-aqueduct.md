@@ -13,6 +13,7 @@ tags:
 project: nineveh-aqueduct
 heroImage: /images/nineveh-aqueduct/hero.png
 draft: false
+devtoId: 3898299
 ---
 
 Around 690 BCE, the Assyrian king Sennacherib built a roughly 50-kilometre canal to carry water from the hills at Khinis down to his capital at Nineveh. Where the canal had to cross a valley near the modern village of Jerwan, his engineers raised a stone aqueduct-bridge on corbelled pointed arches — centuries before Rome figured out the true voussoir arch. I rebuilt a stretch of that bridge in Blender, with Claude driving the modeling and the lighting through the Blender MCP, and then I made the water in the channel an actual fluid simulation rather than a painted-on texture.

@@ -11,6 +11,7 @@ tags:
   - meta
 project: meta
 draft: false
+devtoId: 3898302
 ---
 
 This blog has more than thirty write-ups on it now, and they have almost nothing in common. There are games built in two different engines, a 2,700-year-old aqueduct reconstructed in Blender with a real water simulation, a working search engine, a stack of AI tools that run entirely offline on a single graphics card, and a tool whose entire job is to tell me what's hogging a port. The one thread connecting them is how they were made: each one was built pair-programming with Claude, and each one was built the same way.
