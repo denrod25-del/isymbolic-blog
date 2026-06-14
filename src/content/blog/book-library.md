@@ -1,10 +1,18 @@
 ---
-title: "Book Library: A Local RAG That Answers From My Own PDFs"
-description: "I turned a folder of downloaded PDF books into an offline RAG chat that answers only from the text and cites the exact page — running entirely on my RTX 3070."
-pubDate: 2026-06-12
-tags: [rag, python, local-llm, gpu]
+title: 'Book Library: A Local RAG That Answers From My Own PDFs'
+description: >-
+  I turned a folder of downloaded PDF books into an offline RAG chat that
+  answers only from the text and cites the exact page — running entirely on my
+  RTX 3070.
+pubDate: 2026-06-12T00:00:00.000Z
+tags:
+  - rag
+  - python
+  - local-llm
+  - gpu
 project: book-library
-draft: true
+draft: false
+devtoId: 3898249
 ---
 
 I have a folder full of PDF books I downloaded — a couple hundred of them, mostly programming and technical references. The problem with a couple hundred PDFs is that they're write-only memory: I know the answer is in one of them, I just have no idea which one or what page. Book Library is the fix. It's a chat box in my browser where I ask a question, and it answers using only the text of my books, with citation chips that open the source PDF right at the page it pulled the answer from. No cloud, no API keys, nothing leaves the machine. I built it with Claude as a pair programmer.

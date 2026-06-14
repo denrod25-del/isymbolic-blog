@@ -1,11 +1,18 @@
 ---
-title: "The Nineveh Aqueduct: Rebuilding a 2,700-Year-Old Stone Bridge in Blender"
-description: "Reconstructing Sennacherib's Jerwan aqueduct (c. 690 BCE) in Blender — corbelled stone arches in warm hazy light, with water that's actually simulated."
-pubDate: 2026-06-12
-tags: [blender, 3d, archaeology, simulation]
+title: 'The Nineveh Aqueduct: Rebuilding a 2,700-Year-Old Stone Bridge in Blender'
+description: >-
+  Reconstructing Sennacherib's Jerwan aqueduct (c. 690 BCE) in Blender —
+  corbelled stone arches in warm hazy light, with water that's actually
+  simulated.
+pubDate: 2026-06-12T00:00:00.000Z
+tags:
+  - blender
+  - 3d
+  - archaeology
+  - simulation
 project: nineveh-aqueduct
 heroImage: /images/nineveh-aqueduct/hero.png
-draft: true
+draft: false
 ---
 
 Around 690 BCE, the Assyrian king Sennacherib built a roughly 50-kilometre canal to carry water from the hills at Khinis down to his capital at Nineveh. Where the canal had to cross a valley near the modern village of Jerwan, his engineers raised a stone aqueduct-bridge on corbelled pointed arches — centuries before Rome figured out the true voussoir arch. I rebuilt a stretch of that bridge in Blender, with Claude driving the modeling and the lighting through the Blender MCP, and then I made the water in the channel an actual fluid simulation rather than a painted-on texture.

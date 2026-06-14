@@ -1,12 +1,16 @@
 ---
 title: 'Thirty-Two Projects, One AI Pair Programmer'
 description: >-
-  What I learned building 32 projects with Claude — games, Blender scenes,
-  local AI stacks, a search engine — and the method that made it all work.
-pubDate: 2026-06-13
-tags: [ai, claude, building, meta]
+  What I learned building 32 projects with Claude — games, Blender scenes, local
+  AI stacks, a search engine — and the method that made it all work.
+pubDate: 2026-06-13T00:00:00.000Z
+tags:
+  - ai
+  - claude
+  - building
+  - meta
 project: meta
-draft: true
+draft: false
 ---
 
 This blog has more than thirty write-ups on it now, and they have almost nothing in common. There are games built in two different engines, a 2,700-year-old aqueduct reconstructed in Blender with a real water simulation, a working search engine, a stack of AI tools that run entirely offline on a single graphics card, and a tool whose entire job is to tell me what's hogging a port. The one thread connecting them is how they were made: each one was built pair-programming with Claude, and each one was built the same way.

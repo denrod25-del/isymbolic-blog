@@ -6,7 +6,7 @@
     { "slug": "space-invaders", "name": "Space Invaders", "blurb": "Faithful Space Invaders clone in Unity — lockstep swarm, bunkers, UFO, persistent high score.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "pipe-knight", "name": "Pipe Knight", "blurb": "2D metroidvania prototype in Unity starring a plumber-knight.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "skyhop", "name": "Skyhop", "blurb": "Unity 3D platformer prototype with A Short Hike-style movement, built through Unity MCP.", "repo": "", "live": "", "status": "drafted" },
-    { "slug": "book-library", "name": "Book Library RAG", "blurb": "Local GPU RAG over 250 books — browser chat with cited answers, fully offline.", "repo": "", "live": "", "status": "drafted" },
+    { "slug": "book-library", "name": "Book Library RAG", "blurb": "Local GPU RAG over 250 books — browser chat with cited answers, fully offline.", "repo": "", "live": "", "status": "published" },
     { "slug": "browser-video-editor", "name": "Browser Video Editor", "blurb": "Client-side React video editor — trim, timeline, text overlays, WebCodecs MP4 export with audio.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "computer-fun", "name": "Computer Fun 1984", "blurb": "All 20 BASIC programs from a 1984 Marvel type-in book, revived for browser and Python with a retro menu.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "atlases", "name": "Atlases", "blurb": "16-atlas interactive learning site.", "repo": "https://github.com/denrod25-del/atlases", "live": "https://atlases.vercel.app", "status": "drafted" },
@@ -15,7 +15,7 @@
     { "slug": "copper-risk-pbc", "name": "Copper Risk PBC", "blurb": "Copper-corrosion risk scoring for county water with a PHREEQC-validated chemistry engine.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "nemoclaw", "name": "NemoClaw on WSL", "blurb": "NVIDIA's sandboxed-agent stack running fully local on WSL + Ollama.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "pdf-to-podcast", "name": "PDF to Podcast, Locally", "blurb": "NVIDIA's pdf-to-podcast rewired for a local stack — Claude LLM tiers + Kokoro TTS, no cloud keys.", "repo": "", "live": "", "status": "drafted" },
-    { "slug": "nineveh-aqueduct", "name": "Nineveh Aqueduct", "blurb": "Blender reconstruction of Sennacherib's 690 BCE aqueduct with a real Mantaflow fluid sim.", "repo": "", "live": "", "status": "drafted" },
+    { "slug": "nineveh-aqueduct", "name": "Nineveh Aqueduct", "blurb": "Blender reconstruction of Sennacherib's 690 BCE aqueduct with a real Mantaflow fluid sim.", "repo": "", "live": "", "status": "published" },
     { "slug": "atlantis", "name": "Atlantis", "blurb": "Parametric Blender build of Plato's concentric-ring Atlantis — temple, rings, orichalcum wall.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "blender-planets", "name": "Blender Planets Skill", "blurb": "Reusable Claude skill that builds photoreal planets from real NASA elevation and color maps.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "aseprite-build", "name": "Building Aseprite", "blurb": "Aseprite built from source on Windows — VS2022, prebuilt Skia, and one CMake version gotcha.", "repo": "", "live": "", "status": "drafted" },
@@ -31,6 +31,6 @@
     { "slug": "scribd-dl", "name": "Scribd Downloader", "blurb": "Resumable Playwright tool that archived all 291 of my own saved Scribd documents.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "trading-bot", "name": "Trading Bot", "blurb": "Automated crypto trading bot built around a safety gate and a full decision audit trail (paper-trading default).", "repo": "", "live": "", "status": "drafted" },
     { "slug": "claw-world", "name": "Claw World", "blurb": "Live QBCore FiveM roleplay server and its companion website.", "repo": "", "live": "", "status": "drafted" },
-    { "slug": "symbolic", "name": "Symbolic", "blurb": "A working web search engine on Next.js 16 — Brave-powered results, advertiser portal, and admin review queue.", "repo": "", "live": "", "status": "drafted" }
+    { "slug": "symbolic", "name": "Symbolic", "blurb": "A working web search engine on Next.js 16 — Brave-powered results, advertiser portal, and admin review queue.", "repo": "", "live": "", "status": "published" }
   ]
 }

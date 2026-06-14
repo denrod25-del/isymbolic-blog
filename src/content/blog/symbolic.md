@@ -2,7 +2,8 @@
 title: 'Symbolic: I Built a Search Engine (and Named This Blog After It)'
 description: >-
   How I built Symbolic: a working search engine on Next.js 16 — Brave-powered
-  results, an advertiser portal, an admin review queue, and a companion browser app.
+  results, an advertiser portal, an admin review queue, and a companion browser
+  app.
 pubDate: 2026-06-13T00:00:00.000Z
 tags:
   - nextjs
@@ -11,7 +12,8 @@ tags:
   - web
 project: symbolic
 heroImage: /images/symbolic/hero.png
-draft: true
+draft: false
+devtoId: 3898248
 ---
 
 This blog is called iSymbolic, and that name is not an accident. Symbolic is my search engine — a real, working web search product with its own results page, settings, an advertiser portal, and an admin panel — and it's the project I'm proudest of. The blog is the place I write about what I build; Symbolic is the thing I built that mattered enough to lend its name. There's also a companion browser app that puts Symbolic where searching actually starts. I built it all with Claude as a pair programmer.
