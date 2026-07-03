@@ -12,6 +12,7 @@ tags:
 project: clawmonitor
 heroImage: /images/clawmonitor/hero.png
 draft: false
+devtoId: 4056015
 ---
 
 I wanted to glance up and know, without thinking, whether my machine was on fire — and whether the four background services I actually depend on were still alive. Task Manager makes you go looking. A widget cluttered the desktop. So I built ClawMonitor: a slim, frameless, always-on-top bar pinned to the top edge of the screen, synthwave-styled, that shows CPU / RAM / GPU / network / disk at a glance and — the part no other monitor does — the live up/down status of my dev stack. It's the neon sibling of [ClawPorts](/projects/), built the same way.
