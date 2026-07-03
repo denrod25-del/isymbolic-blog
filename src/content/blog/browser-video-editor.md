@@ -11,7 +11,7 @@ tags:
   - webcodecs
   - video
 project: browser-video-editor
-draft: true
+draft: false
 ---
 
 Browser Video Editor is a video editor that runs entirely in your browser. You import local clips, trim them, arrange them on a timeline, drop text overlays on top, scrub a live preview, and export a real `.mp4` — and the video files never leave your machine. No upload, no backend, no server doing the encoding. I built it with Claude as a pair programmer, and v1 is complete and merged to `master`.
