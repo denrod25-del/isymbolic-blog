@@ -12,7 +12,7 @@ tags:
   - arcade
 project: space-invaders
 heroImage: /images/space-invaders/hero.png
-draft: true
+draft: false
 ---
 
 Space Invaders is the one almost everyone can picture: a grid of aliens marching side to side, dropping a row when they hit the wall, and speeding up to a heart-attack tempo as you thin them out. Tomohiro Nishikado built that for Taito in 1978, and the acceleration was famously a happy accident — the hardware just ran faster with fewer sprites to draw. I wanted to rebuild the whole thing in Unity, faithfully, and decided on purpose rather than by accident. I built it with Claude as a pair programmer, driving Unity live through the Unity MCP bridge, and shipped v1 with all nine milestones verified in Play mode.
