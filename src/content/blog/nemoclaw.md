@@ -1,10 +1,16 @@
 ---
-title: "NemoClaw on WSL: Running NVIDIA's Sandboxed Agent Stack Fully Local"
-description: "I got NVIDIA's NemoClaw sandboxed-agent reference stack running entirely on my own machine — WSL, GPU passthrough, local Ollama, no cloud and no API keys."
-pubDate: 2026-06-12
-tags: [wsl, ollama, local-llm, agents]
+title: 'NemoClaw on WSL: Running NVIDIA''s Sandboxed Agent Stack Fully Local'
+description: >-
+  I got NVIDIA's NemoClaw sandboxed-agent reference stack running entirely on my
+  own machine — WSL, GPU passthrough, local Ollama, no cloud and no API keys.
+pubDate: 2026-06-12T00:00:00.000Z
+tags:
+  - wsl
+  - ollama
+  - local-llm
+  - agents
 project: nemoclaw
-draft: true
+draft: false
 ---
 
 NVIDIA's [NemoClaw](https://github.com/NVIDIA/NemoClaw) is a reference stack for running always-on AI agents inside hardened sandboxes. The examples all point at remote GPU instances and cloud inference. I wanted the opposite: the whole thing on my own desk — WSL, my RTX 3070, a local Ollama model, no cloud and no API keys anywhere in the loop. That took some doing, and the last mile came down to a self-signed certificate and a context-window budget. It now works end to end: I can chat with a sandboxed OpenClaw agent through the dashboard at `localhost:18789`, and every token of inference is served by a model running on my own GPU.
