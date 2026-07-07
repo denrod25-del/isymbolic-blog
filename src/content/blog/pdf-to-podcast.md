@@ -12,6 +12,7 @@ tags:
   - audio
 project: pdf-to-podcast
 draft: false
+devtoId: 4090819
 ---
 
 NVIDIA shipped a neat blueprint called **pdf-to-podcast**: feed it a PDF and it generates a two-host podcast — a real audio file of two voices discussing the document, complete with a planned outline and back-and-forth dialogue. The catch is that out of the box it wants NVIDIA NIM endpoints for the language model and ElevenLabs for the voices, both of which mean API keys and per-call billing. I wanted to know whether the pipeline itself was good, and then whether I could run the whole thing on my own machine with no NVIDIA or ElevenLabs accounts at all. So I cloned it and built a local-stack overlay. Credit where it's due: the pipeline, the agent flow, the whole "outline then dialogue then audio" shape is NVIDIA's work. What I did was swap the cloud pieces out and fix the things that broke when I did. I built the overlay with Claude as a pair programmer.
