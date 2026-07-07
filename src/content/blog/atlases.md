@@ -2,7 +2,8 @@
 title: 'Atlases: 16 Interactive Learning Guides That Run Code in Your Browser'
 description: >-
   How I built Atlases with Claude — 16 long-form technical guides with real
-  in-browser sandboxes (SQLite, CPython, a live shell), quizzes, and dated facts.
+  in-browser sandboxes (SQLite, CPython, a live shell), quizzes, and dated
+  facts.
 pubDate: 2026-06-12T00:00:00.000Z
 tags:
   - education
@@ -11,7 +12,7 @@ tags:
   - ai
 project: atlases
 heroImage: /images/atlases/hero.png
-draft: true
+draft: false
 ---
 
 Atlases is a learning site: 16 long-form technical guides, each one a 12-chapter deep dive that you read in a browser tab while running the actual thing in another pane of the same tab. The databases atlas ships a real SQLite engine. The Python atlas runs CPython. The C++ atlas compiles C++. Nothing is a screenshot or an animated GIF pretending to be a terminal — it's the real interpreter, downloaded to your browser and running locally. It's live at [atlases.vercel.app](https://atlases.vercel.app/), and I built it with Claude as a pair programmer.
