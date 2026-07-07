@@ -1,10 +1,17 @@
 ---
-title: "Scrapling MCP: Giving Claude Code a Real Web Scraper"
-description: "I wired the open-source Scrapling scraper into Claude Code as a global MCP server, so the agent can fetch, scrape, screenshot, and bypass anti-bot pages itself."
-pubDate: 2026-06-12
-tags: [mcp, python, web-scraping, claude]
+title: 'Scrapling MCP: Giving Claude Code a Real Web Scraper'
+description: >-
+  I wired the open-source Scrapling scraper into Claude Code as a global MCP
+  server, so the agent can fetch, scrape, screenshot, and bypass anti-bot pages
+  itself.
+pubDate: 2026-06-12T00:00:00.000Z
+tags:
+  - mcp
+  - python
+  - web-scraping
+  - claude
 project: scrapling-mcp
-draft: true
+draft: false
 ---
 
 Claude Code can read my files and run my shell, but out of the box it can't actually go *get* a page from the live web in a way that survives modern anti-bot defenses. A `curl` from the Bash tool gets you a 403 from anything behind Cloudflare. So I took an existing open-source scraper — [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — installed it locally, and registered its built-in MCP server with Claude Code. Now the agent has ten tools for pulling the real web: plain fetches, headless-browser fetches, stealth fetches that solve Cloudflare, and screenshots. The scraper isn't mine — I want to be clear about that. What I built is the local install and the MCP integration that hands those capabilities to the agent.
