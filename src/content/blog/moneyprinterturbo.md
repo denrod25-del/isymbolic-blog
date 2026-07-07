@@ -11,6 +11,7 @@ tags:
   - tts
 project: moneyprinterturbo
 draft: false
+devtoId: 4090849
 ---
 
 I wanted to see how far an AI short-video pipeline could run on my own machine: type in a topic, get a finished vertical MP4 out the other end, with no cloud LLM bill and no proprietary API keys. The answer is "all the way." I took the open-source [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) project, got it running locally on Windows with Claude as a pair, swapped its language model over to a local Ollama instance, and generated a real 1080x1920, 27-second clip about the benefits of drinking water — script, voiceover, subtitles, stock footage, and all.
