@@ -1,10 +1,17 @@
 ---
-title: "PDF to Podcast, Locally: Running NVIDIA's Blueprint Without Their Keys"
-description: "I took NVIDIA's pdf-to-podcast blueprint and ran it on a fully local stack — tiered Claude writes the script, Kokoro does the voices, no NVIDIA or ElevenLabs keys."
-pubDate: 2026-06-12
-tags: [tts, local-llm, python, audio]
+title: 'PDF to Podcast, Locally: Running NVIDIA''s Blueprint Without Their Keys'
+description: >-
+  I took NVIDIA's pdf-to-podcast blueprint and ran it on a fully local stack —
+  tiered Claude writes the script, Kokoro does the voices, no NVIDIA or
+  ElevenLabs keys.
+pubDate: 2026-06-12T00:00:00.000Z
+tags:
+  - tts
+  - local-llm
+  - python
+  - audio
 project: pdf-to-podcast
-draft: true
+draft: false
 ---
 
 NVIDIA shipped a neat blueprint called **pdf-to-podcast**: feed it a PDF and it generates a two-host podcast — a real audio file of two voices discussing the document, complete with a planned outline and back-and-forth dialogue. The catch is that out of the box it wants NVIDIA NIM endpoints for the language model and ElevenLabs for the voices, both of which mean API keys and per-call billing. I wanted to know whether the pipeline itself was good, and then whether I could run the whole thing on my own machine with no NVIDIA or ElevenLabs accounts at all. So I cloned it and built a local-stack overlay. Credit where it's due: the pipeline, the agent flow, the whole "outline then dialogue then audio" shape is NVIDIA's work. What I did was swap the cloud pieces out and fix the things that broke when I did. I built the overlay with Claude as a pair programmer.
