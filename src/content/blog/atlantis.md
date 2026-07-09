@@ -13,6 +13,7 @@ tags:
 project: atlantis
 heroImage: /images/atlantis/hero.png
 draft: false
+devtoId: 4108008
 ---
 
 In Plato's *Critias*, Atlantis is laid out as a set of concentric rings — a central island crowned by the Temple of Poseidon, wrapped by alternating bands of water and land joined by bridges, sealed by a great outer wall, and pierced by a canal running out to the open sea. It's one of those descriptions that's basically a build spec already. So I had Claude write a single parametric Blender script that generates the whole city from that geometry, and rendered it a few different ways. This is a post about what the script does and how the renders turned out.
