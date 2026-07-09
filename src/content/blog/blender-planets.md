@@ -1,11 +1,18 @@
 ---
-title: "Blender Planets: A Reusable Skill for Building Worlds from Real NASA Maps"
-description: "A Claude Code skill that builds photoreal planets, moons, and gas giants in Blender from real NASA-derived maps — MOLA relief, Fresnel atmospheres, and rings."
-pubDate: 2026-06-12
-tags: [blender, 3d, space, claude]
+title: 'Blender Planets: A Reusable Skill for Building Worlds from Real NASA Maps'
+description: >-
+  A Claude Code skill that builds photoreal planets, moons, and gas giants in
+  Blender from real NASA-derived maps — MOLA relief, Fresnel atmospheres, and
+  rings.
+pubDate: 2026-06-12T00:00:00.000Z
+tags:
+  - blender
+  - 3d
+  - space
+  - claude
 project: blender-planets
 heroImage: /images/blender-planets/hero.png
-draft: true
+draft: false
 ---
 
 Most of the projects I write up here are *things* — a game, a bridge, a tool. This one is a little different. **Blender Planets** is a reusable Claude Code skill: a written capability that Claude loads on demand, encoding how to build a believable planet, moon, or gas giant in Blender from real NASA-derived map data instead of procedural noise. It isn't a single scene I rendered once. It's the recipe, the gotchas, and a set of helper functions, packaged so that the next time I say "drop Mars into this shot," Claude already knows how to do it well.
