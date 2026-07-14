@@ -1,10 +1,16 @@
 ---
-title: "Building Aseprite From Source: A Paid Pixel-Art Editor, Free If You Compile It"
-description: "Aseprite is a paid pixel-art editor whose source is public. I compiled it from source on Windows — and the CMake version trap that almost stopped me cold."
-pubDate: 2026-06-12
-tags: [cpp, cmake, windows, pixel-art]
+title: 'Building Aseprite From Source: A Paid Pixel-Art Editor, Free If You Compile It'
+description: >-
+  Aseprite is a paid pixel-art editor whose source is public. I compiled it from
+  source on Windows — and the CMake version trap that almost stopped me cold.
+pubDate: 2026-06-12T00:00:00.000Z
+tags:
+  - cpp
+  - cmake
+  - windows
+  - pixel-art
 project: aseprite-build
-draft: true
+draft: false
 ---
 
 Aseprite is a pixel-art editor and animation tool that costs about twenty dollars on Steam and itch.io. It's also source-available: the full source lives on GitHub, and the project explicitly allows you to compile it yourself for your own use. So I did. I cloned the repo, fought the toolchain, and ended up with a working `aseprite.exe` (~20.6 MB) that launches and reports "Aseprite 1.x-dev" — the same editor, built by me, on my own machine. I did it with Claude as a pair programmer, and most of the work was untangling exactly one non-obvious trap.
