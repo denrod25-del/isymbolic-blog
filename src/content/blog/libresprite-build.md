@@ -1,11 +1,19 @@
 ---
-title: "Building LibreSprite From Source: The Free GPL Fork, Built With an All-Open Toolchain"
-description: "LibreSprite is the free GPL fork of Aseprite. I compiled it from source on Windows with MSYS2 and g++ — and the README's official path was already dead."
-pubDate: 2026-06-12
-tags: [cpp, msys2, pixel-art, open-source]
+title: >-
+  Building LibreSprite From Source: The Free GPL Fork, Built With an All-Open
+  Toolchain
+description: >-
+  LibreSprite is the free GPL fork of Aseprite. I compiled it from source on
+  Windows with MSYS2 and g++ — and the README's official path was already dead.
+pubDate: 2026-06-12T00:00:00.000Z
+tags:
+  - cpp
+  - msys2
+  - pixel-art
+  - open-source
 project: libresprite-build
 heroImage: /images/libresprite-build/hero.png
-draft: true
+draft: false
 ---
 
 A while back I compiled Aseprite from source — a source-available, paid editor I built for myself with Visual Studio and a prebuilt Skia. This is the other half of that story. LibreSprite is the **free, GPL** fork of Aseprite, and I wanted to build it the way it's meant to be built: with a fully open toolchain, no proprietary compiler, no pinned vendor binary. I cloned the repo, installed a pile of dependencies through a package manager, and ended up with a working `libresprite.exe` (LibreSprite 1.2-dev) that launches with the full GUI — drawing canvas, palette, animation preview, the lot. Claude was my pair programmer for it, and most of the work was figuring out that the project's own official Windows instructions no longer point at anything that exists.
