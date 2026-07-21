@@ -18,8 +18,8 @@
     { "slug": "nineveh-aqueduct", "name": "Nineveh Aqueduct", "blurb": "Blender reconstruction of Sennacherib's 690 BCE aqueduct with a real Mantaflow fluid sim.", "repo": "", "live": "", "status": "published" },
     { "slug": "atlantis", "name": "Atlantis", "blurb": "Parametric Blender build of Plato's concentric-ring Atlantis — temple, rings, orichalcum wall.", "repo": "", "live": "", "status": "published" },
     { "slug": "blender-planets", "name": "Blender Planets Skill", "blurb": "Reusable Claude skill that builds photoreal planets from real NASA elevation and color maps.", "repo": "", "live": "", "status": "published" },
-    { "slug": "aseprite-build", "name": "Building Aseprite", "blurb": "Aseprite built from source on Windows — VS2022, prebuilt Skia, and one CMake version gotcha.", "repo": "", "live": "", "status": "drafted" },
-    { "slug": "libresprite-build", "name": "Building LibreSprite", "blurb": "The open Aseprite fork built via MSYS2 ucrt64 after the official Windows path turned out to be dead.", "repo": "", "live": "", "status": "drafted" },
+    { "slug": "aseprite-build", "name": "Building Aseprite", "blurb": "Aseprite built from source on Windows — VS2022, prebuilt Skia, and one CMake version gotcha.", "repo": "", "live": "", "status": "published" },
+    { "slug": "libresprite-build", "name": "Building LibreSprite", "blurb": "The open Aseprite fork built via MSYS2 ucrt64 after the official Windows path turned out to be dead.", "repo": "", "live": "", "status": "published" },
     { "slug": "moneyprinterturbo", "name": "MoneyPrinterTurbo, Locally", "blurb": "AI short-video generator running end-to-end on local Ollama + Pexels.", "repo": "", "live": "", "status": "published" },
     { "slug": "scrapling-mcp", "name": "Scrapling as an MCP Server", "blurb": "Adaptive web scraper wired into Claude Code as a global MCP server with 10 live tools.", "repo": "", "live": "", "status": "published" },
     { "slug": "ai-security-scanners", "name": "Three AI Security Scanners", "blurb": "garak, AI-Infra-Guard, and vigolium set up side by side — model probing vs infra scanning vs web DAST.", "repo": "", "live": "", "status": "drafted" },
@@ -31,6 +31,7 @@
     { "slug": "scribd-dl", "name": "Scribd Downloader", "blurb": "Resumable Playwright tool that archived all 291 of my own saved Scribd documents.", "repo": "", "live": "", "status": "drafted" },
     { "slug": "trading-bot", "name": "Trading Bot", "blurb": "Automated crypto trading bot built around a safety gate and a full decision audit trail (paper-trading default).", "repo": "", "live": "", "status": "drafted" },
     { "slug": "claw-world", "name": "Claw World", "blurb": "Live QBCore FiveM roleplay server and its companion website.", "repo": "", "live": "", "status": "drafted" },
-    { "slug": "symbolic", "name": "Symbolic", "blurb": "A working web search engine on Next.js 16 — Brave-powered results, advertiser portal, and admin review queue.", "repo": "", "live": "", "status": "published" }
+    { "slug": "symbolic", "name": "Symbolic", "blurb": "A working web search engine on Next.js 16 — Brave-powered results, advertiser portal, and admin review queue.", "repo": "", "live": "", "status": "published" },
+    { "slug": "ai-news", "name": "AI Weekly Digest", "blurb": "Weekly roundup of the biggest AI news, model releases, and industry moves.", "repo": "", "live": "", "status": "published" }
   ]
 }
