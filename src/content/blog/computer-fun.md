@@ -12,6 +12,7 @@ tags:
 project: computer-fun
 heroImage: /images/computer-fun/hero.png
 draft: false
+devtoId: 4274614
 ---
 
 In 1984, Donald I. Fine published *Marvel Super Heroes Computer Fun, Book One* — a kids' "type-in BASIC" book where you'd painstakingly key 20 little programs into your Commodore 64, Apple II, IBM PC, or TRS-80, save to cassette, and run. Spider-Man's tax calculator, Thor's chain-breaking spell, a Concentration game with the X-Men. I found the book, photographed it page by page, and rebuilt every one of those 20 programs to run in a modern browser (and in any Python 3 terminal) — bugs and all. Claude did the transcribing and translating; I fed it the pages and decided what "faithful" meant.
