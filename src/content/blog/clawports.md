@@ -12,6 +12,7 @@ tags:
 project: clawports
 heroImage: /images/clawports/hero.png
 draft: false
+devtoId: 4274612
 ---
 
 I built ClawPorts because I once ran `taskkill /F /IM python.exe` to free up a port, and it killed every Python process on the machine — every dev server, every background script, all at once. The whole point of the command was surgical and the effect was a massacre. ClawPorts is the tool I wished I'd had that day: it lists every TCP port that's actually listening, shows you which process owns it, and lets you kill them one at a time behind a confirmation modal.
