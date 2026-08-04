@@ -12,6 +12,7 @@ tags:
   - api
 project: osiris-water
 draft: false
+devtoId: 4315539
 ---
 
 [OSIRIS](https://github.com/simplifaisoul/osiris) is an open-source OSINT dashboard — a MapLibre globe that aggregates live flight tracking, earthquakes, fires, CCTV networks, and a couple dozen other intelligence feeds into one GPU-rendered map. It had layers for almost everything happening on the planet except the thing coming out of your tap. So I forked it and added one: a US water-quality layer that plots real USGS sensor readings and EPA drinking-water violations on the same map. The dashboard, the globe, and the 16 existing layers are [simplifaisoul](https://github.com/simplifaisoul)'s work — I want to be clear about that. What I built is the new ENVIRONMENT layer category and the live data plumbing behind it.
