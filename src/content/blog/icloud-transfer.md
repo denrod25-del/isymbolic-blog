@@ -1,10 +1,17 @@
 ---
-title: "Moving 20,724 PDFs Off iCloud Onto a Local Drive, Zero Lost"
-description: "A resumable PowerShell pipeline that copied 20,724 PDFs (~253 GB) from iCloud Drive to a local disk without filling my tiny C:, then verified nothing was lost."
-pubDate: 2026-06-12
-tags: [powershell, windows, icloud, automation]
+title: 'Moving 20,724 PDFs Off iCloud Onto a Local Drive, Zero Lost'
+description: >-
+  A resumable PowerShell pipeline that copied 20,724 PDFs (~253 GB) from iCloud
+  Drive to a local disk without filling my tiny C:, then verified nothing was
+  lost.
+pubDate: 2026-08-04T00:00:00.000Z
+tags:
+  - powershell
+  - windows
+  - icloud
+  - automation
 project: icloud-transfer
-draft: true
+draft: false
 ---
 
 I had 20,724 PDFs — ~253 GB — sitting in iCloud Drive, and I wanted them on a local disk where I actually control them. That sounds like a drag-and-drop job. It is not, for two reasons that fight each other: the files are online-only placeholders that don't exist on disk until something touches them, and the drive I could fit them on (D:) isn't the drive iCloud hydrates them onto (C:), which only had about 60 GB free. Copy them naively and C: fills up and the whole thing stalls a third of the way through. I built the transfer with Claude as a pair programmer, and it finished with all 20,724 files copied and a verify pass showing zero missing.
