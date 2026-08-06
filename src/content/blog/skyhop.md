@@ -11,7 +11,7 @@ tags:
   - prototype
 project: skyhop
 heroImage: /images/skyhop/hero.png
-draft: true
+draft: false
 ---
 
 Skyhop is a 3D platformer prototype I'm building in Unity, and right now it's exactly one thing: a movement feel. No levels, no enemies, no goal — just a character, a greybox gym, and a controller I keep tuning until jumping around feels good. The whole thing is being driven through Claude over the Unity MCP connector, which means I describe the mechanic and Claude writes the C# that goes into the editor. This is an in-progress prototype, not a shipped game. I'm posting it now because the interesting part — getting a 3D platformer's movement to feel right — is mostly done, and the rest is feel-tuning.
