@@ -1,10 +1,16 @@
 ---
-title: "Three AI Security Scanners, Side by Side"
-description: "I stood up garak, AI-Infra-Guard, and vigolium together to see what each actually covers — model-layer, infra-layer, and web-app-layer scanning."
-pubDate: 2026-06-12
-tags: [security, llm, docker, ai]
+title: 'Three AI Security Scanners, Side by Side'
+description: >-
+  I stood up garak, AI-Infra-Guard, and vigolium together to see what each
+  actually covers — model-layer, infra-layer, and web-app-layer scanning.
+pubDate: 2026-06-12T00:00:00.000Z
+tags:
+  - security
+  - llm
+  - docker
+  - ai
 project: ai-security-scanners
-draft: true
+draft: false
 ---
 
 "AI security scanner" is one of those phrases that sounds specific until you try to act on it. Scan *what*, exactly — the model's responses? The infrastructure it runs on? The web app it's bolted into? Those are three different jobs, and the tools that do them aren't interchangeable. So I installed three of them on the same machine — [garak](https://github.com/NVIDIA/garak), [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard), and [vigolium](https://github.com/vigolium/vigolium) — and ran each one far enough to see where its lane actually starts and stops. None of these are mine; the work here was the setup and the comparison, not the scanners themselves.
