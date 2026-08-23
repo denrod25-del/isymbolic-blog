@@ -2,7 +2,8 @@
 title: 'Pipe Knight: Building a Plumber-Knight Metroidvania Stage by Stage'
 description: >-
   An in-progress metroidvania prototype in Unity 6 (2D URP) — a plumber-knight
-  restoring flow to a pipe kingdom, built from scripts up to a live vertical slice.
+  restoring flow to a pipe kingdom, built from scripts up to a live vertical
+  slice.
 pubDate: 2026-06-13T00:00:00.000Z
 tags:
   - unity
@@ -10,7 +11,7 @@ tags:
   - metroidvania
   - prototype
 project: pipe-knight
-draft: true
+draft: false
 ---
 
 Pipe Knight is a 2D metroidvania I'm building one stage at a time: a plumber-knight wades into an underground pipe kingdom to restore the flow, and your wrench is both your weapon and your key. It's early — a working prototype, not a game you can download — and I'm writing this up while it's still rough on purpose, because the interesting part is watching a metroidvania come together piece by piece. I'm building it with Claude as a pair programmer, the same way I've built the other projects in this series.
