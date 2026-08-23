@@ -15,6 +15,7 @@ tags:
 project: fieldservice-atlas
 heroImage: /images/fieldservice-atlas/hero.png
 draft: false
+devtoId: 4469755
 ---
 
 [open-fieldservice](https://github.com/clawnify/open-fieldservice) is an open-source field-service scheduler — a Preact front end, a Hono API, and a Cloudflare D1 database, billed as a self-hostable alternative to ServiceTitan or Jobber for pest control, HVAC, plumbing, and the rest. It ships with the full back office: jobs, a customer CRM, technicians, invoices, materials, a weekly calendar. What it didn't have was the one screen a dispatcher actually lives in all day — a board where you drag jobs onto technicians and watch the day fill up. So I cloned it, reskinned the whole thing ServiceTitan-style into "Atlas," and built that board. The scheduler, the API, and the data model are [clawnify](https://github.com/clawnify)'s open-source work — I want to be clear about that. What I added is the visual redesign and a new Dispatch board on top of the existing API.
