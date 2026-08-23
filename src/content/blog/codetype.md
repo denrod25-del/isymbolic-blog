@@ -10,7 +10,7 @@ tags:
   - typing
   - prototype
 project: codetype
-draft: true
+draft: false
 ---
 
 Every typing trainer I tried teaches you to type English. You race through "the quick brown fox" and watch your words-per-minute climb, and none of it helps when you sit down to write actual code, because code isn't words. It's `const`, `=>`, `})`, four spaces of indentation, and a semicolon you forget half the time. So I started building CodeType: a typing trainer that drills the thing I actually need to get faster at, which is typing code. I'm early in learning to program, and I wanted the practice to match the work. Claude is my pair programmer on this — I decide what it should be, it writes most of the code — and the first of four planned releases is done.
