@@ -1,11 +1,17 @@
 ---
-title: "SymStudio: Forking and Rebranding OBS Studio Into My Own Build"
-description: "How I forked OBS Studio, built it from source on Windows, and rebranded it into a portable SymStudio.exe — plus an installer, theme, and starter scenes."
-pubDate: 2026-06-12
-tags: [obs, cpp, windows, ai]
+title: 'SymStudio: Forking and Rebranding OBS Studio Into My Own Build'
+description: >-
+  How I forked OBS Studio, built it from source on Windows, and rebranded it
+  into a portable SymStudio.exe — plus an installer, theme, and starter scenes.
+pubDate: 2026-06-12T00:00:00.000Z
+tags:
+  - obs
+  - cpp
+  - windows
+  - ai
 project: symstudio
 heroImage: /images/symstudio/hero.png
-draft: true
+draft: false
 ---
 
 SymStudio is my personal rebrand of OBS Studio — the same broadcasting engine, with its own name, icon, About dialog, and eventually its own theme and starter scenes. I built it with Claude as a pair programmer, starting from a clone of the OBS repo and ending with a portable `SymStudio.exe` that runs straight from a folder. OBS is GPLv2, so this is allowed: GPLv2 requires keeping the source open and the license and copyright notices intact, and removing OBS's trademarks and logo while keeping a "Based on OBS Studio" note is the clean way to do it.
