@@ -12,6 +12,7 @@ tags:
 project: symstudio
 heroImage: /images/symstudio/hero.png
 draft: false
+devtoId: 4469745
 ---
 
 SymStudio is my personal rebrand of OBS Studio — the same broadcasting engine, with its own name, icon, About dialog, and eventually its own theme and starter scenes. I built it with Claude as a pair programmer, starting from a clone of the OBS repo and ending with a portable `SymStudio.exe` that runs straight from a folder. OBS is GPLv2, so this is allowed: GPLv2 requires keeping the source open and the license and copyright notices intact, and removing OBS's trademarks and logo while keeping a "Based on OBS Studio" note is the clean way to do it.
