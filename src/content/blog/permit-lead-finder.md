@@ -11,6 +11,7 @@ tags:
   - automation
 project: permit-lead-finder
 draft: false
+devtoId: 4478127
 ---
 
 Every building permit a county issues is a public record, and every permit is also a small signal about a house: someone pulled a water-heater permit, someone's remodel inspection failed, someone re-roofed a place fifteen years ago. For a home-service business those signals are leads — but they arrive as a flat CSV export with hundreds of rows and no ranking. Permit Lead Finder is the thing that turns that export into a sorted list: each property scored, the high-intent ones at the top, with a plain-English reason attached to every score. I built it with Claude as a pair programmer, and it runs entirely on a public permit file with no scraping of anyone's private data.
