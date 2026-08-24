@@ -1,10 +1,16 @@
 ---
-title: "Permit Lead Finder: Turning Public Permit Data Into Ranked Sales Leads"
-description: "A Python tool that scores a county's public building-permit export into a ranked list of sales leads — categories, weighted signals, and 28 tests."
-pubDate: 2026-06-12
-tags: [python, data, sales, automation]
+title: 'Permit Lead Finder: Turning Public Permit Data Into Ranked Sales Leads'
+description: >-
+  A Python tool that scores a county's public building-permit export into a
+  ranked list of sales leads — categories, weighted signals, and 28 tests.
+pubDate: 2026-06-12T00:00:00.000Z
+tags:
+  - python
+  - data
+  - sales
+  - automation
 project: permit-lead-finder
-draft: true
+draft: false
 ---
 
 Every building permit a county issues is a public record, and every permit is also a small signal about a house: someone pulled a water-heater permit, someone's remodel inspection failed, someone re-roofed a place fifteen years ago. For a home-service business those signals are leads — but they arrive as a flat CSV export with hundreds of rows and no ranking. Permit Lead Finder is the thing that turns that export into a sorted list: each property scored, the high-intent ones at the top, with a plain-English reason attached to every score. I built it with Claude as a pair programmer, and it runs entirely on a public permit file with no scraping of anyone's private data.
