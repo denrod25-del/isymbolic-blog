@@ -2,7 +2,8 @@
 title: 'Claw World: Running a FiveM Roleplay Server and Building Its Website'
 description: >-
   Notes from running a live QBCore FiveM roleplay server and building the
-  companion website that fronts it — applications, leaderboards, turf, and a feed.
+  companion website that fronts it — applications, leaderboards, turf, and a
+  feed.
 pubDate: 2026-06-13T00:00:00.000Z
 tags:
   - fivem
@@ -10,7 +11,7 @@ tags:
   - gaming
   - lua
 project: claw-world
-draft: true
+draft: false
 ---
 
 Claw World is a roleplay server I run on [FiveM](https://fivem.net/), the multiplayer modification for GTA V, using the [QBCore](https://github.com/qbcore-framework) framework. Alongside the server itself there's a companion website — the public face people hit before they ever join — and this post is about both halves: keeping a community RP server running, and building the site that sits in front of it. I won't be sharing connection details, addresses, or anything you'd use to reach the box; this is about the build, not the door.
