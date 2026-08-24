@@ -12,6 +12,7 @@ tags:
   - lua
 project: claw-world
 draft: false
+devtoId: 4478106
 ---
 
 Claw World is a roleplay server I run on [FiveM](https://fivem.net/), the multiplayer modification for GTA V, using the [QBCore](https://github.com/qbcore-framework) framework. Alongside the server itself there's a companion website — the public face people hit before they ever join — and this post is about both halves: keeping a community RP server running, and building the site that sits in front of it. I won't be sharing connection details, addresses, or anything you'd use to reach the box; this is about the build, not the door.
