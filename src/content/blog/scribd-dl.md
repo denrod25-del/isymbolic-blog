@@ -11,6 +11,7 @@ tags:
   - nodejs
 project: scribd-dl
 draft: false
+devtoId: 4478108
 ---
 
 I had 291 documents saved on my own Scribd account — papers, manuals, technical PDFs I'd bookmarked over the years — and no good way to get them onto my disk where I actually keep things. Scribd's "Saved" page is a single scrolling wall of items, and there's no "download all." So I built a small Playwright tool to walk my saved list and pull down each document I had access to, one at a time. It finished with all 291 downloaded and zero failures, across two runs separated by a day, because Scribd has a daily download quota that I had to wait out. I built it with Claude as a pair programmer.
