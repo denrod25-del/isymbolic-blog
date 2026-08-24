@@ -1,10 +1,16 @@
 ---
-title: "Archiving All 291 of My Own Saved Scribd Docs With Playwright"
-description: "A small resumable Playwright tool that pulled down all 291 documents saved on my own Scribd account — surviving the daily quota and a session expiry."
-pubDate: 2026-06-13
-tags: [playwright, automation, archival, nodejs]
+title: Archiving All 291 of My Own Saved Scribd Docs With Playwright
+description: >-
+  A small resumable Playwright tool that pulled down all 291 documents saved on
+  my own Scribd account — surviving the daily quota and a session expiry.
+pubDate: 2026-06-13T00:00:00.000Z
+tags:
+  - playwright
+  - automation
+  - archival
+  - nodejs
 project: scribd-dl
-draft: true
+draft: false
 ---
 
 I had 291 documents saved on my own Scribd account — papers, manuals, technical PDFs I'd bookmarked over the years — and no good way to get them onto my disk where I actually keep things. Scribd's "Saved" page is a single scrolling wall of items, and there's no "download all." So I built a small Playwright tool to walk my saved list and pull down each document I had access to, one at a time. It finished with all 291 downloaded and zero failures, across two runs separated by a day, because Scribd has a daily download quota that I had to wait out. I built it with Claude as a pair programmer.
