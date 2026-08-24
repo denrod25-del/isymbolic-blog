@@ -28,9 +28,9 @@
     { "slug": "fieldservice-atlas", "name": "Atlas Field Service", "blurb": "open-fieldservice reskinned ServiceTitan-style with a new dispatch board.", "repo": "", "live": "", "status": "published" },
     { "slug": "codetype", "name": "CodeType", "blurb": "Code-focused typing trainer for brackets, symbols, and indentation.", "repo": "", "live": "https://codetype-theta.vercel.app", "status": "published" },
     { "slug": "clawmonitor", "name": "ClawMonitor", "blurb": "Always-on-top synthwave system-monitor bar (Electron) — CPU/RAM/GPU plus dev-stack health.", "repo": "https://github.com/denrod25-del/ClawMonitor", "live": "", "status": "published" },
-    { "slug": "scribd-dl", "name": "Scribd Downloader", "blurb": "Resumable Playwright tool that archived all 291 of my own saved Scribd documents.", "repo": "", "live": "", "status": "drafted" },
+    { "slug": "scribd-dl", "name": "Scribd Downloader", "blurb": "Resumable Playwright tool that archived all 291 of my own saved Scribd documents.", "repo": "", "live": "", "status": "published" },
     { "slug": "trading-bot", "name": "Trading Bot", "blurb": "Automated crypto trading bot built around a safety gate and a full decision audit trail (paper-trading default).", "repo": "", "live": "", "status": "drafted" },
-    { "slug": "claw-world", "name": "Claw World", "blurb": "Live QBCore FiveM roleplay server and its companion website.", "repo": "", "live": "", "status": "drafted" },
+    { "slug": "claw-world", "name": "Claw World", "blurb": "Live QBCore FiveM roleplay server and its companion website.", "repo": "", "live": "", "status": "published" },
     { "slug": "symbolic", "name": "Symbolic", "blurb": "A working web search engine on Next.js 16 — Brave-powered results, advertiser portal, and admin review queue.", "repo": "", "live": "", "status": "published" },
     { "slug": "ai-news", "name": "AI Weekly Digest", "blurb": "Weekly roundup of the biggest AI news, model releases, and industry moves.", "repo": "", "live": "", "status": "published" }
   ]
