@@ -1,10 +1,16 @@
 ---
-title: "EWG Tap Water Reports: Turning a Water Database Into County-Wide Reports"
-description: "I scraped the EWG Tap Water Database for every Palm Beach County ZIP and turned it into SQLite, CSV, homeowner-friendly reports, and a dashboard."
-pubDate: 2026-06-12
-tags: [python, scraping, data, water]
+title: 'EWG Tap Water Reports: Turning a Water Database Into County-Wide Reports'
+description: >-
+  I scraped the EWG Tap Water Database for every Palm Beach County ZIP and
+  turned it into SQLite, CSV, homeowner-friendly reports, and a dashboard.
+pubDate: 2026-06-12T00:00:00.000Z
+tags:
+  - python
+  - scraping
+  - data
+  - water
 project: ewg-tapwater
-draft: true
+draft: false
 ---
 
 The [Environmental Working Group](https://www.ewg.org/tapwater/) publishes a Tap Water Database that tells you what's actually in the water coming out of your tap — every contaminant a utility detected, how it compares to EWG's health guidelines, and what those chemicals do. The catch is that it's organized one utility page at a time. If you want to understand the water across a whole county — which systems are worst, which contaminant shows up everywhere, how your ZIP compares to the next town over — you're clicking through dozens of pages and copying numbers into your head. EWG Tap Water Reports is the thing that does that clicking for me. It scrapes the database for every ZIP in Palm Beach County, Florida, stores the results in a queryable database, and turns them into plain-English reports plus a dashboard. I built it with Claude as a pair programmer. All of the underlying data is EWG's; this tool just collects and reshapes it.
