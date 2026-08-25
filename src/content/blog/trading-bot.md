@@ -1,5 +1,5 @@
 ---
-title: 'A Crypto Trading Bot Where the Interesting Part Is the Safety Check'
+title: A Crypto Trading Bot Where the Interesting Part Is the Safety Check
 description: >-
   An automated crypto trading bot built around a safety gate that verifies every
   entry condition, with a paper-trading default and a full decision audit trail.
@@ -8,7 +8,7 @@ tags:
   - nodejs
   - trading
   - automation
-draft: true
+draft: false
 project: trading-bot
 ---
 
