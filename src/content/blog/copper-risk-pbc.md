@@ -12,6 +12,7 @@ tags:
   - data
 project: copper-risk-pbc
 draft: false
+devtoId: 4486786
 ---
 
 How corrosive is your tap water to the copper pipes it runs through? That's a chemistry question with a real answer, and water utilities have computed it for decades using a handful of saturation and stability indices. Copper Risk PBC is my attempt to compute those indices for one specific water system — Palm Beach County Water Utilities, EPA public-water-system ID FL4504393, a groundwater system serving about 619,000 people — and turn them into a screening band per distribution zone. I built it with Claude as a pair programmer. The engine works and is validated against the USGS gold-standard model. The data to point it at is the part that's stuck.
