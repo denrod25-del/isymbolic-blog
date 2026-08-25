@@ -10,6 +10,7 @@ tags:
   - automation
 draft: false
 project: trading-bot
+devtoId: 4486787
 ---
 
 I built an automated crypto trading bot, and the part I actually care about isn't the strategy. It's the safety check — the gate that sits between "the indicators say go" and "place a real order with real money." A trading strategy is a hypothesis. A safety check is the thing that refuses to let a bad hypothesis spend your balance. So this post is an engineering story about that gate, not a trading one.
