@@ -12,7 +12,7 @@
     { "slug": "atlases", "name": "Atlases", "blurb": "16-atlas interactive learning site.", "repo": "https://github.com/denrod25-del/atlases", "live": "https://atlases.vercel.app", "status": "published" },
     { "slug": "permit-lead-finder", "name": "Permit Lead Finder", "blurb": "Python tool that scores public building-permit exports into ranked sales leads.", "repo": "", "live": "", "status": "published" },
     { "slug": "ewg-tapwater", "name": "EWG Tap Water Reports", "blurb": "CLI that scrapes EWG tap-water data into SQLite and homeowner-friendly reports.", "repo": "", "live": "", "status": "published" },
-    { "slug": "copper-risk-pbc", "name": "Copper Risk PBC", "blurb": "Copper-corrosion risk scoring for county water with a PHREEQC-validated chemistry engine.", "repo": "", "live": "", "status": "drafted" },
+    { "slug": "copper-risk-pbc", "name": "Copper Risk PBC", "blurb": "Copper-corrosion risk scoring for county water with a PHREEQC-validated chemistry engine.", "repo": "", "live": "", "status": "published" },
     { "slug": "nemoclaw", "name": "NemoClaw on WSL", "blurb": "NVIDIA's sandboxed-agent stack running fully local on WSL + Ollama.", "repo": "", "live": "", "status": "published" },
     { "slug": "pdf-to-podcast", "name": "PDF to Podcast, Locally", "blurb": "NVIDIA's pdf-to-podcast rewired for a local stack — Claude LLM tiers + Kokoro TTS, no cloud keys.", "repo": "", "live": "", "status": "published" },
     { "slug": "nineveh-aqueduct", "name": "Nineveh Aqueduct", "blurb": "Blender reconstruction of Sennacherib's 690 BCE aqueduct with a real Mantaflow fluid sim.", "repo": "", "live": "", "status": "published" },
@@ -29,7 +29,7 @@
     { "slug": "codetype", "name": "CodeType", "blurb": "Code-focused typing trainer for brackets, symbols, and indentation.", "repo": "", "live": "https://codetype-theta.vercel.app", "status": "published" },
     { "slug": "clawmonitor", "name": "ClawMonitor", "blurb": "Always-on-top synthwave system-monitor bar (Electron) — CPU/RAM/GPU plus dev-stack health.", "repo": "https://github.com/denrod25-del/ClawMonitor", "live": "", "status": "published" },
     { "slug": "scribd-dl", "name": "Scribd Downloader", "blurb": "Resumable Playwright tool that archived all 291 of my own saved Scribd documents.", "repo": "", "live": "", "status": "published" },
-    { "slug": "trading-bot", "name": "Trading Bot", "blurb": "Automated crypto trading bot built around a safety gate and a full decision audit trail (paper-trading default).", "repo": "", "live": "", "status": "drafted" },
+    { "slug": "trading-bot", "name": "Trading Bot", "blurb": "Automated crypto trading bot built around a safety gate and a full decision audit trail (paper-trading default).", "repo": "", "live": "", "status": "published" },
     { "slug": "claw-world", "name": "Claw World", "blurb": "Live QBCore FiveM roleplay server and its companion website.", "repo": "", "live": "", "status": "published" },
     { "slug": "symbolic", "name": "Symbolic", "blurb": "A working web search engine on Next.js 16 — Brave-powered results, advertiser portal, and admin review queue.", "repo": "", "live": "", "status": "published" },
     { "slug": "ai-news", "name": "AI Weekly Digest", "blurb": "Weekly roundup of the biggest AI news, model releases, and industry moves.", "repo": "", "live": "", "status": "published" }
