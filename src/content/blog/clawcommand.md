@@ -3,14 +3,14 @@ title: 'ClawCommand: One Dashboard for Every AI Thing on My Machine'
 description: >-
   A neon Electron command centre showing every AI provider, model, service and
   GPU on a Windows box — with exactly one button that spends tokens.
-pubDate: 2026-08-30
+pubDate: 2026-08-30T00:00:00.000Z
 tags:
   - electron
   - windows
   - ai
   - monitoring
 project: clawcommand
-draft: true
+draft: false
 ---
 
 At some point I had seven different AI CLIs installed, a local Ollama with a handful of models, a gateway on one port, n8n on another, LM Studio on a third, and no idea at any given moment which of them were actually alive. Checking meant seven terminal commands. So I built the dashboard: ClawCommand, a full-window neon Electron app that answers "what AI is running on this box right now" in one glance.
