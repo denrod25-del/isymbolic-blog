@@ -11,6 +11,7 @@ tags:
   - monitoring
 project: clawcommand
 draft: false
+devtoId: 4529316
 ---
 
 At some point I had seven different AI CLIs installed, a local Ollama with a handful of models, a gateway on one port, n8n on another, LM Studio on a third, and no idea at any given moment which of them were actually alive. Checking meant seven terminal commands. So I built the dashboard: ClawCommand, a full-window neon Electron app that answers "what AI is running on this box right now" in one glance.
