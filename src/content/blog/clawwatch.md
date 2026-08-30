@@ -11,6 +11,7 @@ tags:
   - ai
 project: clawwatch
 draft: false
+devtoId: 4529320
 ---
 
 A player crashed out of my FiveM roleplay server with `ERR_STR_INFO_2` — a RAGE streaming crash caused by a bad addon asset. Diagnosing it meant SSHing to the VPS, tailing a log, cross-referencing which resource had just started, and knowing what that particular error code means. All of which I did, slowly, at eleven at night.
