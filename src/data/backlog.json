@@ -1,6 +1,6 @@
 {
   "projects": [
-    { "slug": "lava-leap", "name": "Lava Leap", "blurb": "Endless vertical climber (Phaser 3 + TypeScript) with parametric-reachability procedural levels and rising lava.", "repo": "https://github.com/denrod25-del/lava-leap", "live": "", "status": "published" },
+    { "slug": "lava-leap", "name": "Lava Leap", "blurb": "Endless vertical climber (Phaser 3 + TypeScript) with parametric-reachability procedural levels and rising lava.", "repo": "https://github.com/denrod25-del/lava-leap", "live": "https://bsymbolic.itch.io/lava-leap", "status": "published" },
     { "slug": "symstudio", "name": "SymStudio", "blurb": "OBS Studio forked, built from source on Windows, and rebranded into a portable streaming app with installer, custom theme, and starter scenes.", "repo": "", "live": "", "status": "published" },
     { "slug": "clawports", "name": "ClawPorts", "blurb": "Neon Electron port/process manager for Windows — see what's listening and kill it.", "repo": "https://github.com/denrod25-del/ClawPorts", "live": "", "status": "published" },
     { "slug": "space-invaders", "name": "Space Invaders", "blurb": "Faithful Space Invaders clone in Unity — lockstep swarm, bunkers, UFO, persistent high score.", "repo": "", "live": "", "status": "published" },
@@ -32,6 +32,16 @@
     { "slug": "trading-bot", "name": "Trading Bot", "blurb": "Automated crypto trading bot built around a safety gate and a full decision audit trail (paper-trading default).", "repo": "", "live": "", "status": "published" },
     { "slug": "claw-world", "name": "Claw World", "blurb": "Live QBCore FiveM roleplay server and its companion website.", "repo": "", "live": "", "status": "published" },
     { "slug": "symbolic", "name": "Symbolic", "blurb": "A working web search engine on Next.js 16 — Brave-powered results, advertiser portal, and admin review queue.", "repo": "", "live": "", "status": "published" },
-    { "slug": "ai-news", "name": "AI Weekly Digest", "blurb": "Weekly roundup of the biggest AI news, model releases, and industry moves.", "repo": "", "live": "", "status": "published" }
+    { "slug": "ai-news", "name": "AI Weekly Digest", "blurb": "Weekly roundup of the biggest AI news, model releases, and industry moves.", "repo": "", "live": "", "status": "published" },
+    { "slug": "auditscout", "name": "AuditScout", "blurb": "Website audit SaaS — paste a URL, get a prioritized scorecard across SEO, security, performance, trust and conversion.", "repo": "", "live": "https://auditscout.vercel.app", "status": "drafted" },
+    { "slug": "symphonia", "name": "Symphonia", "blurb": "Public-domain classical library — 144 movements with an idempotent transcode pipeline and provenance on every work.", "repo": "", "live": "https://symphonia-web.vercel.app", "status": "drafted" },
+    { "slug": "taptrace", "name": "TapTrace", "blurb": "Address-to-water-utility API with a measured confidence tier on every answer — feature-complete, deliberately unlaunched.", "repo": "", "live": "https://taptrace-sjal.vercel.app", "status": "drafted" },
+    { "slug": "clawcommand", "name": "ClawCommand", "blurb": "Neon Electron command centre for every AI provider, model, service and GPU on a Windows box.", "repo": "", "live": "", "status": "drafted" },
+    { "slug": "clawwatch", "name": "ClawWatch", "blurb": "Desktop agent that diagnoses a live FiveM server over SSH, txAdmin, RCON and MariaDB — rules first, confirm before risk.", "repo": "", "live": "", "status": "drafted" },
+    { "slug": "pipewise", "name": "PipeWise", "blurb": "r/Plumbing scraped, tagged by a local LLM, clustered into ranked question topics, then written up.", "repo": "", "live": "", "status": "drafted" },
+    { "slug": "scamwatch", "name": "ScamWatch", "blurb": "Public-benefit scam-intelligence platform with calibrated confidence, de-identified reports and a human moderation gate.", "repo": "https://github.com/denrod25-del/scamwatch", "live": "https://scamwatch-seven.vercel.app", "status": "drafted" },
+    { "slug": "sitesignal", "name": "SiteSignal", "blurb": "Weather-intelligence API for field-service software — HMAC-signed webhook alerts and workability scores.", "repo": "", "live": "https://sitesignal-beryl.vercel.app", "status": "drafted" },
+    { "slug": "crewcast", "name": "CrewCast", "blurb": "Job-site weather app for contractors — 15 trade profiles, model-agreement checks and a self-grading forecast scorecard.", "repo": "", "live": "https://stormradar.vercel.app", "status": "drafted" },
+    { "slug": "the-signal", "name": "The Signal", "blurb": "Weekly AI newsletter built on top of a nightly scheduled news task.", "repo": "", "live": "https://btheaisignal.substack.com", "status": "drafted" }
   ]
 }
