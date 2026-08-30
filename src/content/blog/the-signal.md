@@ -13,6 +13,7 @@ tags:
 project: the-signal
 heroImage: /images/the-signal/hero.png
 draft: false
+devtoId: 4529326
 ---
 
 I already had a scheduled task that read me the day's AI news every evening at nine. It ran, I listened, and the output evaporated. The obvious move was to keep it: five days of nightly briefings is most of a weekly newsletter already, and the expensive part of a newsletter is not the writing, it's knowing what happened.
