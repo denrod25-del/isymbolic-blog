@@ -12,6 +12,7 @@ tags:
 project: symphonia
 heroImage: /images/symphonia/hero.png
 draft: false
+devtoId: 4529311
 ---
 
 There is a surprising amount of genuinely public-domain classical music on the internet and almost nowhere pleasant to listen to it. The Musopen Kickstarter collection — professional recordings, released under a Public Domain Mark — sits on archive.org as a pile of FLAC files. Symphonia turns that pile into a library you can browse by composer and click to play. It's live at [symphonia-web.vercel.app](https://symphonia-web.vercel.app) with the entire collection loaded: **14 composers, 37 works, 144 movements.**
