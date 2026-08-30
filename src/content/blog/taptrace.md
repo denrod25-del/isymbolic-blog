@@ -12,6 +12,7 @@ tags:
 project: taptrace
 heroImage: /images/taptrace/hero.png
 draft: false
+devtoId: 4529305
 ---
 
 Ask the internet which utility supplies your tap water and you will get a confident wrong answer. Utility service areas don't follow city limits, ZIP codes are mailing conventions rather than boundaries, and most geocoders interpolate your house from a street segment instead of finding your roof. TapTrace is my attempt to answer the question properly: give it a US street address, get back the Public Water System that serves it, its drinking-water violations and contaminant levels — and, crucially, **a confidence score and tier saying how much to trust that answer.**
