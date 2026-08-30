@@ -1,47 +1,348 @@
 {
   "projects": [
-    { "slug": "lava-leap", "name": "Lava Leap", "blurb": "Endless vertical climber (Phaser 3 + TypeScript) with parametric-reachability procedural levels and rising lava.", "repo": "https://github.com/denrod25-del/lava-leap", "live": "https://bsymbolic.itch.io/lava-leap", "status": "published" },
-    { "slug": "symstudio", "name": "SymStudio", "blurb": "OBS Studio forked, built from source on Windows, and rebranded into a portable streaming app with installer, custom theme, and starter scenes.", "repo": "", "live": "", "status": "published" },
-    { "slug": "clawports", "name": "ClawPorts", "blurb": "Neon Electron port/process manager for Windows — see what's listening and kill it.", "repo": "https://github.com/denrod25-del/ClawPorts", "live": "", "status": "published" },
-    { "slug": "space-invaders", "name": "Space Invaders", "blurb": "Faithful Space Invaders clone in Unity — lockstep swarm, bunkers, UFO, persistent high score.", "repo": "", "live": "", "status": "published" },
-    { "slug": "pipe-knight", "name": "Pipe Knight", "blurb": "2D metroidvania prototype in Unity starring a plumber-knight.", "repo": "", "live": "", "status": "published" },
-    { "slug": "skyhop", "name": "Skyhop", "blurb": "Unity 3D platformer prototype with A Short Hike-style movement, built through Unity MCP.", "repo": "", "live": "", "status": "published" },
-    { "slug": "book-library", "name": "Book Library RAG", "blurb": "Local GPU RAG over 250 books — browser chat with cited answers, fully offline.", "repo": "", "live": "", "status": "published" },
-    { "slug": "browser-video-editor", "name": "Browser Video Editor", "blurb": "Client-side React video editor — trim, timeline, text overlays, WebCodecs MP4 export with audio.", "repo": "", "live": "", "status": "published" },
-    { "slug": "computer-fun", "name": "Computer Fun 1984", "blurb": "All 20 BASIC programs from a 1984 Marvel type-in book, revived for browser and Python with a retro menu.", "repo": "https://github.com/denrod25-del/computer-fun", "live": "", "status": "published" },
-    { "slug": "atlases", "name": "Atlases", "blurb": "16-atlas interactive learning site.", "repo": "https://github.com/denrod25-del/atlases", "live": "https://atlases.vercel.app", "status": "published" },
-    { "slug": "permit-lead-finder", "name": "Permit Lead Finder", "blurb": "Python tool that scores public building-permit exports into ranked sales leads.", "repo": "", "live": "", "status": "published" },
-    { "slug": "ewg-tapwater", "name": "EWG Tap Water Reports", "blurb": "CLI that scrapes EWG tap-water data into SQLite and homeowner-friendly reports.", "repo": "", "live": "", "status": "published" },
-    { "slug": "copper-risk-pbc", "name": "Copper Risk PBC", "blurb": "Copper-corrosion risk scoring for county water with a PHREEQC-validated chemistry engine.", "repo": "", "live": "", "status": "published" },
-    { "slug": "nemoclaw", "name": "NemoClaw on WSL", "blurb": "NVIDIA's sandboxed-agent stack running fully local on WSL + Ollama.", "repo": "", "live": "", "status": "published" },
-    { "slug": "pdf-to-podcast", "name": "PDF to Podcast, Locally", "blurb": "NVIDIA's pdf-to-podcast rewired for a local stack — Claude LLM tiers + Kokoro TTS, no cloud keys.", "repo": "", "live": "", "status": "published" },
-    { "slug": "nineveh-aqueduct", "name": "Nineveh Aqueduct", "blurb": "Blender reconstruction of Sennacherib's 690 BCE aqueduct with a real Mantaflow fluid sim.", "repo": "", "live": "", "status": "published" },
-    { "slug": "atlantis", "name": "Atlantis", "blurb": "Parametric Blender build of Plato's concentric-ring Atlantis — temple, rings, orichalcum wall.", "repo": "", "live": "", "status": "published" },
-    { "slug": "blender-planets", "name": "Blender Planets Skill", "blurb": "Reusable Claude skill that builds photoreal planets from real NASA elevation and color maps.", "repo": "", "live": "", "status": "published" },
-    { "slug": "aseprite-build", "name": "Building Aseprite", "blurb": "Aseprite built from source on Windows — VS2022, prebuilt Skia, and one CMake version gotcha.", "repo": "", "live": "", "status": "published" },
-    { "slug": "libresprite-build", "name": "Building LibreSprite", "blurb": "The open Aseprite fork built via MSYS2 ucrt64 after the official Windows path turned out to be dead.", "repo": "", "live": "", "status": "published" },
-    { "slug": "moneyprinterturbo", "name": "MoneyPrinterTurbo, Locally", "blurb": "AI short-video generator running end-to-end on local Ollama + Pexels.", "repo": "", "live": "", "status": "published" },
-    { "slug": "scrapling-mcp", "name": "Scrapling as an MCP Server", "blurb": "Adaptive web scraper wired into Claude Code as a global MCP server with 10 live tools.", "repo": "", "live": "", "status": "published" },
-    { "slug": "ai-security-scanners", "name": "Three AI Security Scanners", "blurb": "garak, AI-Infra-Guard, and vigolium set up side by side — model probing vs infra scanning vs web DAST.", "repo": "", "live": "", "status": "published" },
-    { "slug": "osiris-water", "name": "OSIRIS Water-Quality Layer", "blurb": "OSINT dashboard extended with a live US water-quality layer — USGS sensors + EPA violations.", "repo": "https://github.com/denrod25-del/osiris", "live": "", "status": "published" },
-    { "slug": "icloud-transfer", "name": "Moving 20,724 PDFs out of iCloud", "blurb": "A resumable PowerShell pipeline that migrated 253 GB with zero missing files.", "repo": "", "live": "", "status": "published" },
-    { "slug": "fieldservice-atlas", "name": "Atlas Field Service", "blurb": "open-fieldservice reskinned ServiceTitan-style with a new dispatch board.", "repo": "", "live": "", "status": "published" },
-    { "slug": "codetype", "name": "CodeType", "blurb": "Code-focused typing trainer for brackets, symbols, and indentation.", "repo": "", "live": "https://codetype-theta.vercel.app", "status": "published" },
-    { "slug": "clawmonitor", "name": "ClawMonitor", "blurb": "Always-on-top synthwave system-monitor bar (Electron) — CPU/RAM/GPU plus dev-stack health.", "repo": "https://github.com/denrod25-del/ClawMonitor", "live": "", "status": "published" },
-    { "slug": "scribd-dl", "name": "Scribd Downloader", "blurb": "Resumable Playwright tool that archived all 291 of my own saved Scribd documents.", "repo": "", "live": "", "status": "published" },
-    { "slug": "trading-bot", "name": "Trading Bot", "blurb": "Automated crypto trading bot built around a safety gate and a full decision audit trail (paper-trading default).", "repo": "", "live": "", "status": "published" },
-    { "slug": "claw-world", "name": "Claw World", "blurb": "Live QBCore FiveM roleplay server and its companion website.", "repo": "", "live": "", "status": "published" },
-    { "slug": "symbolic", "name": "Symbolic", "blurb": "A working web search engine on Next.js 16 — Brave-powered results, advertiser portal, and admin review queue.", "repo": "", "live": "", "status": "published" },
-    { "slug": "ai-news", "name": "AI Weekly Digest", "blurb": "Weekly roundup of the biggest AI news, model releases, and industry moves.", "repo": "", "live": "", "status": "published" },
-    { "slug": "auditscout", "name": "AuditScout", "blurb": "Website audit SaaS — paste a URL, get a prioritized scorecard across SEO, security, performance, trust and conversion.", "repo": "", "live": "https://auditscout.vercel.app", "status": "drafted" },
-    { "slug": "symphonia", "name": "Symphonia", "blurb": "Public-domain classical library — 144 movements with an idempotent transcode pipeline and provenance on every work.", "repo": "", "live": "https://symphonia-web.vercel.app", "status": "drafted" },
-    { "slug": "taptrace", "name": "TapTrace", "blurb": "Address-to-water-utility API with a measured confidence tier on every answer — feature-complete, deliberately unlaunched.", "repo": "", "live": "https://taptrace-sjal.vercel.app", "status": "drafted" },
-    { "slug": "clawcommand", "name": "ClawCommand", "blurb": "Neon Electron command centre for every AI provider, model, service and GPU on a Windows box.", "repo": "", "live": "", "status": "drafted" },
-    { "slug": "clawwatch", "name": "ClawWatch", "blurb": "Desktop agent that diagnoses a live FiveM server over SSH, txAdmin, RCON and MariaDB — rules first, confirm before risk.", "repo": "", "live": "", "status": "drafted" },
-    { "slug": "pipewise", "name": "PipeWise", "blurb": "r/Plumbing scraped, tagged by a local LLM, clustered into ranked question topics, then written up.", "repo": "", "live": "", "status": "drafted" },
-    { "slug": "scamwatch", "name": "ScamWatch", "blurb": "Public-benefit scam-intelligence platform with calibrated confidence, de-identified reports and a human moderation gate.", "repo": "https://github.com/denrod25-del/scamwatch", "live": "https://scamwatch-seven.vercel.app", "status": "drafted" },
-    { "slug": "sitesignal", "name": "SiteSignal", "blurb": "Weather-intelligence API for field-service software — HMAC-signed webhook alerts and workability scores.", "repo": "", "live": "https://sitesignal-beryl.vercel.app", "status": "drafted" },
-    { "slug": "crewcast", "name": "CrewCast", "blurb": "Job-site weather app for contractors — 15 trade profiles, model-agreement checks and a self-grading forecast scorecard.", "repo": "", "live": "https://stormradar.vercel.app", "status": "drafted" },
-    { "slug": "the-signal", "name": "The Signal", "blurb": "Weekly AI newsletter built on top of a nightly scheduled news task.", "repo": "", "live": "https://btheaisignal.substack.com", "status": "drafted" }
+    {
+      "slug": "lava-leap",
+      "name": "Lava Leap",
+      "blurb": "Endless vertical climber (Phaser 3 + TypeScript) with parametric-reachability procedural levels and rising lava.",
+      "repo": "https://github.com/denrod25-del/lava-leap",
+      "live": "https://bsymbolic.itch.io/lava-leap",
+      "status": "published"
+    },
+    {
+      "slug": "symstudio",
+      "name": "SymStudio",
+      "blurb": "OBS Studio forked, built from source on Windows, and rebranded into a portable streaming app with installer, custom theme, and starter scenes.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "clawports",
+      "name": "ClawPorts",
+      "blurb": "Neon Electron port/process manager for Windows — see what's listening and kill it.",
+      "repo": "https://github.com/denrod25-del/ClawPorts",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "space-invaders",
+      "name": "Space Invaders",
+      "blurb": "Faithful Space Invaders clone in Unity — lockstep swarm, bunkers, UFO, persistent high score.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "pipe-knight",
+      "name": "Pipe Knight",
+      "blurb": "2D metroidvania prototype in Unity starring a plumber-knight.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "skyhop",
+      "name": "Skyhop",
+      "blurb": "Unity 3D platformer prototype with A Short Hike-style movement, built through Unity MCP.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "book-library",
+      "name": "Book Library RAG",
+      "blurb": "Local GPU RAG over 250 books — browser chat with cited answers, fully offline.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "browser-video-editor",
+      "name": "Browser Video Editor",
+      "blurb": "Client-side React video editor — trim, timeline, text overlays, WebCodecs MP4 export with audio.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "computer-fun",
+      "name": "Computer Fun 1984",
+      "blurb": "All 20 BASIC programs from a 1984 Marvel type-in book, revived for browser and Python with a retro menu.",
+      "repo": "https://github.com/denrod25-del/computer-fun",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "atlases",
+      "name": "Atlases",
+      "blurb": "16-atlas interactive learning site.",
+      "repo": "https://github.com/denrod25-del/atlases",
+      "live": "https://atlases.vercel.app",
+      "status": "published"
+    },
+    {
+      "slug": "permit-lead-finder",
+      "name": "Permit Lead Finder",
+      "blurb": "Python tool that scores public building-permit exports into ranked sales leads.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "ewg-tapwater",
+      "name": "EWG Tap Water Reports",
+      "blurb": "CLI that scrapes EWG tap-water data into SQLite and homeowner-friendly reports.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "copper-risk-pbc",
+      "name": "Copper Risk PBC",
+      "blurb": "Copper-corrosion risk scoring for county water with a PHREEQC-validated chemistry engine.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "nemoclaw",
+      "name": "NemoClaw on WSL",
+      "blurb": "NVIDIA's sandboxed-agent stack running fully local on WSL + Ollama.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "pdf-to-podcast",
+      "name": "PDF to Podcast, Locally",
+      "blurb": "NVIDIA's pdf-to-podcast rewired for a local stack — Claude LLM tiers + Kokoro TTS, no cloud keys.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "nineveh-aqueduct",
+      "name": "Nineveh Aqueduct",
+      "blurb": "Blender reconstruction of Sennacherib's 690 BCE aqueduct with a real Mantaflow fluid sim.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "atlantis",
+      "name": "Atlantis",
+      "blurb": "Parametric Blender build of Plato's concentric-ring Atlantis — temple, rings, orichalcum wall.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "blender-planets",
+      "name": "Blender Planets Skill",
+      "blurb": "Reusable Claude skill that builds photoreal planets from real NASA elevation and color maps.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "aseprite-build",
+      "name": "Building Aseprite",
+      "blurb": "Aseprite built from source on Windows — VS2022, prebuilt Skia, and one CMake version gotcha.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "libresprite-build",
+      "name": "Building LibreSprite",
+      "blurb": "The open Aseprite fork built via MSYS2 ucrt64 after the official Windows path turned out to be dead.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "moneyprinterturbo",
+      "name": "MoneyPrinterTurbo, Locally",
+      "blurb": "AI short-video generator running end-to-end on local Ollama + Pexels.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "scrapling-mcp",
+      "name": "Scrapling as an MCP Server",
+      "blurb": "Adaptive web scraper wired into Claude Code as a global MCP server with 10 live tools.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "ai-security-scanners",
+      "name": "Three AI Security Scanners",
+      "blurb": "garak, AI-Infra-Guard, and vigolium set up side by side — model probing vs infra scanning vs web DAST.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "osiris-water",
+      "name": "OSIRIS Water-Quality Layer",
+      "blurb": "OSINT dashboard extended with a live US water-quality layer — USGS sensors + EPA violations.",
+      "repo": "https://github.com/denrod25-del/osiris",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "icloud-transfer",
+      "name": "Moving 20,724 PDFs out of iCloud",
+      "blurb": "A resumable PowerShell pipeline that migrated 253 GB with zero missing files.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "fieldservice-atlas",
+      "name": "Atlas Field Service",
+      "blurb": "open-fieldservice reskinned ServiceTitan-style with a new dispatch board.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "codetype",
+      "name": "CodeType",
+      "blurb": "Code-focused typing trainer for brackets, symbols, and indentation.",
+      "repo": "",
+      "live": "https://codetype-theta.vercel.app",
+      "status": "published"
+    },
+    {
+      "slug": "clawmonitor",
+      "name": "ClawMonitor",
+      "blurb": "Always-on-top synthwave system-monitor bar (Electron) — CPU/RAM/GPU plus dev-stack health.",
+      "repo": "https://github.com/denrod25-del/ClawMonitor",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "scribd-dl",
+      "name": "Scribd Downloader",
+      "blurb": "Resumable Playwright tool that archived all 291 of my own saved Scribd documents.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "trading-bot",
+      "name": "Trading Bot",
+      "blurb": "Automated crypto trading bot built around a safety gate and a full decision audit trail (paper-trading default).",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "claw-world",
+      "name": "Claw World",
+      "blurb": "Live QBCore FiveM roleplay server and its companion website.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "symbolic",
+      "name": "Symbolic",
+      "blurb": "A working web search engine on Next.js 16 — Brave-powered results, advertiser portal, and admin review queue.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "ai-news",
+      "name": "AI Weekly Digest",
+      "blurb": "Weekly roundup of the biggest AI news, model releases, and industry moves.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "auditscout",
+      "name": "AuditScout",
+      "blurb": "Website audit SaaS — paste a URL, get a prioritized scorecard across SEO, security, performance, trust and conversion.",
+      "repo": "",
+      "live": "https://auditscout.vercel.app",
+      "status": "published"
+    },
+    {
+      "slug": "symphonia",
+      "name": "Symphonia",
+      "blurb": "Public-domain classical library — 144 movements with an idempotent transcode pipeline and provenance on every work.",
+      "repo": "",
+      "live": "https://symphonia-web.vercel.app",
+      "status": "published"
+    },
+    {
+      "slug": "taptrace",
+      "name": "TapTrace",
+      "blurb": "Address-to-water-utility API with a measured confidence tier on every answer — feature-complete, deliberately unlaunched.",
+      "repo": "",
+      "live": "https://taptrace-sjal.vercel.app",
+      "status": "published"
+    },
+    {
+      "slug": "clawcommand",
+      "name": "ClawCommand",
+      "blurb": "Neon Electron command centre for every AI provider, model, service and GPU on a Windows box.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "clawwatch",
+      "name": "ClawWatch",
+      "blurb": "Desktop agent that diagnoses a live FiveM server over SSH, txAdmin, RCON and MariaDB — rules first, confirm before risk.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "pipewise",
+      "name": "PipeWise",
+      "blurb": "r/Plumbing scraped, tagged by a local LLM, clustered into ranked question topics, then written up.",
+      "repo": "",
+      "live": "",
+      "status": "published"
+    },
+    {
+      "slug": "scamwatch",
+      "name": "ScamWatch",
+      "blurb": "Public-benefit scam-intelligence platform with calibrated confidence, de-identified reports and a human moderation gate.",
+      "repo": "https://github.com/denrod25-del/scamwatch",
+      "live": "https://scamwatch-seven.vercel.app",
+      "status": "published"
+    },
+    {
+      "slug": "sitesignal",
+      "name": "SiteSignal",
+      "blurb": "Weather-intelligence API for field-service software — HMAC-signed webhook alerts and workability scores.",
+      "repo": "",
+      "live": "https://sitesignal-beryl.vercel.app",
+      "status": "published"
+    },
+    {
+      "slug": "crewcast",
+      "name": "CrewCast",
+      "blurb": "Job-site weather app for contractors — 15 trade profiles, model-agreement checks and a self-grading forecast scorecard.",
+      "repo": "",
+      "live": "https://stormradar.vercel.app",
+      "status": "published"
+    },
+    {
+      "slug": "the-signal",
+      "name": "The Signal",
+      "blurb": "Weekly AI newsletter built on top of a nightly scheduled news task.",
+      "repo": "",
+      "live": "https://btheaisignal.substack.com",
+      "status": "published"
+    }
   ]
 }
