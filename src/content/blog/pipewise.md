@@ -11,6 +11,7 @@ tags:
   - content
 project: pipewise
 draft: false
+devtoId: 4529324
 ---
 
 A plumbing subreddit is a corpus of every question homeowners are too embarrassed to ask a plumber. Thousands of posts, each one a real problem with a real fixture and usually a photo. As raw text it's noise. Structured, it's a map of what a plumbing business should be writing about, ranked by how often people actually need the answer.
