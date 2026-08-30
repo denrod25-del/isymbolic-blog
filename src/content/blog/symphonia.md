@@ -3,7 +3,7 @@ title: 'Symphonia: 144 Movements of Public-Domain Classical, Traced to Source'
 description: >-
   Building a public-domain classical music library — a Supabase catalog, an
   idempotent transcode pipeline, and the CSP trailing slash that silenced it.
-pubDate: 2026-08-30
+pubDate: 2026-08-30T00:00:00.000Z
 tags:
   - nextjs
   - supabase
@@ -11,7 +11,7 @@ tags:
   - ai
 project: symphonia
 heroImage: /images/symphonia/hero.png
-draft: true
+draft: false
 ---
 
 There is a surprising amount of genuinely public-domain classical music on the internet and almost nowhere pleasant to listen to it. The Musopen Kickstarter collection — professional recordings, released under a Public Domain Mark — sits on archive.org as a pile of FLAC files. Symphonia turns that pile into a library you can browse by composer and click to play. It's live at [symphonia-web.vercel.app](https://symphonia-web.vercel.app) with the entire collection loaded: **14 composers, 37 works, 144 movements.**
