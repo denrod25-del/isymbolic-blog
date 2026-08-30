@@ -3,14 +3,14 @@ title: 'ClawWatch: An Agent That Watches My Game Server and Asks Before It Acts'
 description: >-
   A desktop agent that diagnoses a live FiveM server over SSH, txAdmin, RCON and
   MariaDB — rules first, LLM second, and a safety model that fails closed.
-pubDate: 2026-08-30
+pubDate: 2026-08-30T00:00:00.000Z
 tags:
   - electron
   - agents
   - devops
   - ai
 project: clawwatch
-draft: true
+draft: false
 ---
 
 A player crashed out of my FiveM roleplay server with `ERR_STR_INFO_2` — a RAGE streaming crash caused by a bad addon asset. Diagnosing it meant SSHing to the VPS, tailing a log, cross-referencing which resource had just started, and knowing what that particular error code means. All of which I did, slowly, at eleven at night.
