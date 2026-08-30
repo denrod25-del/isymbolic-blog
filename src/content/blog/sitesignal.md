@@ -3,7 +3,7 @@ title: 'SiteSignal: Weather Alerts as an API, and the Bug That Billed Nothing'
 description: >-
   Signed webhook alerts and workability scores for field-service software — plus
   the idle dashboard tab that burned 2,487 requests overnight doing nothing.
-pubDate: 2026-08-30
+pubDate: 2026-08-30T00:00:00.000Z
 tags:
   - api
   - weather
@@ -11,7 +11,7 @@ tags:
   - saas
 project: sitesignal
 heroImage: /images/sitesignal/hero.png
-draft: true
+draft: false
 ---
 
 I already had a weather app for contractors. What I didn't have was the version other people's software could buy. SiteSignal is that: a weather-intelligence API that field-service platforms integrate, so their users get "gusts hit 32 mph at 123 Main St" or "tomorrow is a no-go for roofing" without anyone building a weather stack.
