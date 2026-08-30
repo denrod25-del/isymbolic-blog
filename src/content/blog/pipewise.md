@@ -3,14 +3,14 @@ title: 'PipeWise: Turning r/Plumbing Into a Content Engine'
 description: >-
   Scrape a trade subreddit past its anti-bot wall, tag every post with a local
   LLM, cluster the questions people actually ask, and rank what to write next.
-pubDate: 2026-08-30
+pubDate: 2026-08-30T00:00:00.000Z
 tags:
   - python
   - scraping
   - llm
   - content
 project: pipewise
-draft: true
+draft: false
 ---
 
 A plumbing subreddit is a corpus of every question homeowners are too embarrassed to ask a plumber. Thousands of posts, each one a real problem with a real fixture and usually a photo. As raw text it's noise. Structured, it's a map of what a plumbing business should be writing about, ranked by how often people actually need the answer.
