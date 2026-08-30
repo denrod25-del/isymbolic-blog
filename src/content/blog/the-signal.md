@@ -2,8 +2,9 @@
 title: 'The Signal: Turning a Nightly News Task Into a Newsletter'
 description: >-
   A weekly AI newsletter built on top of an existing scheduled task — the
-  pipeline, the format, one live issue, and why AI news is hard to source safely.
-pubDate: 2026-08-30
+  pipeline, the format, one live issue, and why AI news is hard to source
+  safely.
+pubDate: 2026-08-30T00:00:00.000Z
 tags:
   - newsletter
   - automation
@@ -11,7 +12,7 @@ tags:
   - writing
 project: the-signal
 heroImage: /images/the-signal/hero.png
-draft: true
+draft: false
 ---
 
 I already had a scheduled task that read me the day's AI news every evening at nine. It ran, I listened, and the output evaporated. The obvious move was to keep it: five days of nightly briefings is most of a weekly newsletter already, and the expensive part of a newsletter is not the writing, it's knowing what happened.
