@@ -13,6 +13,7 @@ tags:
 project: auditscout
 heroImage: /images/auditscout/hero.png
 draft: false
+devtoId: 4529308
 ---
 
 Most website-audit tools hand you a wall of red and a number you can't act on. I wanted the opposite: a short list of things that are actually wrong, ranked by how much they matter, written in language a contractor or a solo founder can read — plus a 30-day plan and a copy/paste prompt that fixes them. That's AuditScout. It's live at [auditscout.vercel.app](https://auditscout.vercel.app), in public beta, and the most interesting engineering decisions in it are about honesty.
