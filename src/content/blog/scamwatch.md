@@ -2,8 +2,9 @@
 title: 'ScamWatch: Building a Scam-Intelligence Platform That Refuses to Exaggerate'
 description: >-
   A public-benefit platform to check links, numbers and messages before you
-  click — with calibrated confidence, a moderation gate, and de-identified reports.
-pubDate: 2026-08-30
+  click — with calibrated confidence, a moderation gate, and de-identified
+  reports.
+pubDate: 2026-08-30T00:00:00.000Z
 tags:
   - nextjs
   - supabase
@@ -11,7 +12,7 @@ tags:
   - ai
 project: scamwatch
 heroImage: /images/scamwatch/hero.png
-draft: true
+draft: false
 ---
 
 The gap in consumer scam tools isn't detection. It's explanation. Plenty of things will tell you a link is bad; almost nothing tells you *why*, or admits when it doesn't know. ScamWatch — "Know Before You Click" — is my attempt at the other version: paste a suspicious link, phone number, email or message, and get a transparent, calibrated risk explanation, with a route to the official body that actually handles that kind of fraud.
