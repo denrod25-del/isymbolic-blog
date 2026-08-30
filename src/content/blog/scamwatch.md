@@ -13,6 +13,7 @@ tags:
 project: scamwatch
 heroImage: /images/scamwatch/hero.png
 draft: false
+devtoId: 4529302
 ---
 
 The gap in consumer scam tools isn't detection. It's explanation. Plenty of things will tell you a link is bad; almost nothing tells you *why*, or admits when it doesn't know. ScamWatch — "Know Before You Click" — is my attempt at the other version: paste a suspicious link, phone number, email or message, and get a transparent, calibrated risk explanation, with a route to the official body that actually handles that kind of fraud.
