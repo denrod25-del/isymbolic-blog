@@ -13,6 +13,7 @@ tags:
 project: crewcast
 heroImage: /images/crewcast/hero.png
 draft: false
+devtoId: 4529312
 ---
 
 Every weather app tells you it's 86°F and clear. None of them tell you whether you can pour concrete today. CrewCast does: a job-site weather app for contractors and outdoor trades, live at [stormradar.vercel.app](https://stormradar.vercel.app), built around one question — *is this workable?* — and a lot of machinery devoted to being honest about how confident it is.
