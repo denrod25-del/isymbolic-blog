@@ -3,7 +3,7 @@ title: 'TapTrace: Feature-Complete, Unlaunched, and Honest About Both'
 description: >-
   An address-to-water-utility API with a measured confidence tier on every
   answer — 211 tests, five milestones, four SaaS surfaces, and no customers yet.
-pubDate: 2026-08-30
+pubDate: 2026-08-30T00:00:00.000Z
 tags:
   - python
   - fastapi
@@ -11,7 +11,7 @@ tags:
   - saas
 project: taptrace
 heroImage: /images/taptrace/hero.png
-draft: true
+draft: false
 ---
 
 Ask the internet which utility supplies your tap water and you will get a confident wrong answer. Utility service areas don't follow city limits, ZIP codes are mailing conventions rather than boundaries, and most geocoders interpolate your house from a street segment instead of finding your roof. TapTrace is my attempt to answer the question properly: give it a US street address, get back the Public Water System that serves it, its drinking-water violations and contaminant levels — and, crucially, **a confidence score and tier saying how much to trust that answer.**
