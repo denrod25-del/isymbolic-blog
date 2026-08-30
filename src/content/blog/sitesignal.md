@@ -12,6 +12,7 @@ tags:
 project: sitesignal
 heroImage: /images/sitesignal/hero.png
 draft: false
+devtoId: 4529299
 ---
 
 I already had a weather app for contractors. What I didn't have was the version other people's software could buy. SiteSignal is that: a weather-intelligence API that field-service platforms integrate, so their users get "gusts hit 32 mph at 123 Main St" or "tomorrow is a no-go for roofing" without anyone building a weather stack.
