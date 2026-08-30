@@ -2,8 +2,9 @@
 title: 'CrewCast: The Weather App That Grades Its Own Forecasts'
 description: >-
   A job-site weather app for contractors — 15 trade profiles, model-agreement
-  checks, a self-verifying scorecard, and the service worker that never deployed.
-pubDate: 2026-08-30
+  checks, a self-verifying scorecard, and the service worker that never
+  deployed.
+pubDate: 2026-08-30T00:00:00.000Z
 tags:
   - weather
   - pwa
@@ -11,7 +12,7 @@ tags:
   - ai
 project: crewcast
 heroImage: /images/crewcast/hero.png
-draft: true
+draft: false
 ---
 
 Every weather app tells you it's 86°F and clear. None of them tell you whether you can pour concrete today. CrewCast does: a job-site weather app for contractors and outdoor trades, live at [stormradar.vercel.app](https://stormradar.vercel.app), built around one question — *is this workable?* — and a lot of machinery devoted to being honest about how confident it is.
