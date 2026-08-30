@@ -12,6 +12,7 @@ tags:
 project: lava-leap
 heroImage: /images/lava-leap-launch/hero.png
 draft: false
+devtoId: 4529314
 ---
 
 [Lava Leap](/blog/lava-leap/) was a finished endless climber sitting on a Vercel URL. This is what happened when I tried to put it in front of people who hadn't been told about it — the publishing paths, the bug I had explained away months earlier, and the instrumentation that finally settled the argument.
