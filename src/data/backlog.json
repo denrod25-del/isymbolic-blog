@@ -343,6 +343,54 @@
       "repo": "",
       "live": "https://btheaisignal.substack.com",
       "status": "published"
+    },
+    {
+      "slug": "n8n-local",
+      "name": "n8n, Self-Hosted",
+      "blurb": "Self-hosted n8n in Docker wired into Claude Code as an MCP server, with three production automations built through the agent.",
+      "repo": "",
+      "live": "",
+      "status": "drafted"
+    },
+    {
+      "slug": "marketing-funnel",
+      "name": "White-Label Lead Funnel",
+      "blurb": "A one-off agency site productized into a config-driven, white-label lead funnel for local trades.",
+      "repo": "",
+      "live": "",
+      "status": "todo"
+    },
+    {
+      "slug": "symbolic-browser",
+      "name": "Symbolic Browser",
+      "blurb": "My own Electron Chromium browser — webview tabs, omnibox search, custom branding.",
+      "repo": "",
+      "live": "",
+      "status": "todo"
+    },
+    {
+      "slug": "aquaguard",
+      "name": "AquaGuard, Modernized",
+      "blurb": "A 2023 hackathon water app revived with pluggable vision models and token-free MapLibre maps.",
+      "repo": "",
+      "live": "",
+      "status": "todo"
+    },
+    {
+      "slug": "tapwise",
+      "name": "Tapwise",
+      "blurb": "Calm, honest water-intelligence newsletter with an editorial linter that enforces the voice.",
+      "repo": "",
+      "live": "",
+      "status": "later"
+    },
+    {
+      "slug": "orbital",
+      "name": "Orbital",
+      "blurb": "Space dashboard built on five free public space APIs (FastAPI).",
+      "repo": "",
+      "live": "",
+      "status": "later"
     }
   ]
 }
