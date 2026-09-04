@@ -350,7 +350,7 @@
       "blurb": "Self-hosted n8n in Docker wired into Claude Code as an MCP server, with three production automations built through the agent.",
       "repo": "",
       "live": "",
-      "status": "drafted"
+      "status": "published"
     },
     {
       "slug": "marketing-funnel",
