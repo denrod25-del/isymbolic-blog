@@ -11,6 +11,7 @@ tags:
   - docker
 project: n8n-local
 draft: false
+devtoId: 4569777
 ---
 
 n8n is a workflow automation tool — the self-hostable, node-graph kind, where you wire a schedule to an HTTP call to a database write and it runs without you. Normally you build those graphs by dragging boxes around a canvas. I did something different: I ran n8n in Docker on my own machine, registered it with Claude Code as an MCP server, and then built three real workflows by *describing* them to the agent, which created and edited the nodes programmatically. The canvas became a place I went to verify, not a place I went to build.
